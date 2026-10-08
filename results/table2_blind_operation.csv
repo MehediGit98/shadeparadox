@@ -1,0 +1,7 @@
+rule,controller_key,medi_retained_pct,delta_250lx_time_pp,delta_glare_time_pp,delta_energy_pct,cell_interval_lo_pct,cell_interval_hi_pct,seed_interval_lo_pct,seed_interval_hi_pct
+Always open,always_open,100.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0
+Glare trigger,glare_only,91.15,0.0,-8.33,-2.59,81.5,100.0,90.3,91.9
+Solar trigger,thermal_only,98.04,0.0,-1.62,-0.39,94.1,100.0,97.7,98.6
+Glare or solar,thermal_and_glare,91.15,0.0,-8.33,-2.59,81.5,100.0,90.3,91.9
+Illustrative stochastic,illustrative_stochastic,73.31,-7.54,-8.4,-11.43,64.9,80.4,55.2,86.6
+Melanopic-aware,circadian_aware,94.09,0.0,-6.5,-1.78,87.4,100.0,94.1,94.1

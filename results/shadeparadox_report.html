@@ -1,0 +1,104 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shading paradox testbed</title><style>
+:root{--ink:#12100e;--mute:#6c6660;--rule:#ddd8d0;--bg:#fbfaf8;
+      --warn:#a8341f;--ok:#2c6e49;--acc:#1f4e79}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:15px/1.55 "Iowan Old Style",Georgia,serif;padding:32px 22px 80px}
+.wrap{max-width:980px;margin:0 auto}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:17px;margin:38px 0 10px;padding-bottom:6px;
+   border-bottom:1px solid var(--rule);font-weight:600}
+.sub{color:var(--mute);margin:0 0 16px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:13px;
+      font-family:ui-monospace,"SF Mono",Menlo,monospace}
+th,td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:right}
+th:first-child,td:first-child{text-align:left;font-family:inherit}
+thead th{border-bottom:1.5px solid var(--ink);font-weight:600;
+         font-family:inherit;font-size:12px;color:var(--mute)}
+tbody tr:hover{background:#f2efe9}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+      gap:14px;margin:14px 0}
+.card{border:1px solid var(--rule);background:#fff;padding:12px 14px}
+.card .lab{font-size:11px;color:var(--mute);text-transform:uppercase;
+           letter-spacing:.06em}
+.card .val{font-size:22px;font-family:ui-monospace,Menlo,monospace;margin-top:3px}
+.note{border-left:3px solid var(--acc);padding:8px 14px;background:#fff;
+      margin:14px 0;font-size:13.5px}
+.warn{border-left-color:var(--warn)}
+.bar{height:9px;background:#e8e3da;position:relative}
+.bar span{position:absolute;left:0;top:0;bottom:0;background:var(--acc)}
+code{font-family:ui-monospace,Menlo,monospace;font-size:12px}
+.prov{font-size:11.5px;color:var(--mute);font-family:ui-monospace,Menlo,monospace;
+      white-space:pre-wrap;border-top:1px solid var(--rule);padding-top:10px;
+      margin-top:26px}
+.ci{color:var(--mute);font-size:11px}
+</style></head><body><div class="wrap">
+<h1>Shading paradox testbed</h1>
+<p class="sub">Coupled thermal, visual and circadian shading control in a
+tropical perimeter office. Melanopic values are <strong>lx melanopic EDI</strong>
+(CIE S 026), not photopic lux. Intervals are 95% bootstrap.</p>
+
+<div class="grid"><div class="card"><div class="lab">Largest circadian cost</div><div class="val">27%</div><div class="lab">mEDI lost · Illustrative stochastic operation</div></div><div class="card"><div class="lab">Encoding ÷ algorithm</div><div class="val">—×</div><div class="lab">outcome dispersion ratio</div></div><div class="card"><div class="lab">View-direction spread</div><div class="val">4.64×</div><div class="lab">max ÷ min mEDI over heading</div></div></div>
+
+<h2>E1 · What shade operation costs</h2>
+<p class="sub">Against blinds never operated, across
+4 orientations × 3 desk depths.
+"mEDI retained" is the ratio of trip-mean melanopic EDI to the never-operated
+case: 1.00 means no circadian cost.</p>
+<table><thead><tr><th>Shade operation</th><th>mEDI retained</th><th></th>
+<th>Δ compliance pp</th><th>Δ DGP&gt;0.35 pp</th><th>Δ energy %</th>
+</tr></thead><tbody><tr><td>Blinds never operated</td><td>1.00 <span class="ci">[1.00, 1.00]</span></td><td style="width:22%"><div class="bar"><span style="width:100%"></span></div></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td></tr><tr><td>Closes on glare only</td><td>0.91 <span class="ci">[0.82, 1.00]</span></td><td style="width:22%"><div class="bar"><span style="width:91%"></span></div></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td><td>-8.3 <span class="ci">[-17.5, 0.0]</span></td><td>-2.6 <span class="ci">[-5.3, 0.0]</span></td></tr><tr><td>Closes on radiant discomfort only</td><td>0.98 <span class="ci">[0.94, 1.00]</span></td><td style="width:22%"><div class="bar"><span style="width:98%"></span></div></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td><td>-1.6 <span class="ci">[-4.9, 0.0]</span></td><td>-0.4 <span class="ci">[-1.2, 0.0]</span></td></tr><tr><td>Closes on glare or radiant discomfort</td><td>0.91 <span class="ci">[0.82, 1.00]</span></td><td style="width:22%"><div class="bar"><span style="width:91%"></span></div></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td><td>-8.3 <span class="ci">[-17.5, 0.0]</span></td><td>-2.6 <span class="ci">[-5.3, 0.0]</span></td></tr><tr><td>Illustrative stochastic operation</td><td>0.73 <span class="ci">[0.65, 0.80]</span></td><td style="width:22%"><div class="bar"><span style="width:73%"></span></div></td><td>-7.5 <span class="ci">[-10.8, -4.3]</span></td><td>-8.4 <span class="ci">[-16.9, -1.1]</span></td><td>-11.4 <span class="ci">[-14.4, -8.8]</span></td></tr><tr><td>Glare-constrained, circadian-maximising</td><td>0.94 <span class="ci">[0.87, 1.00]</span></td><td style="width:22%"><div class="bar"><span style="width:94%"></span></div></td><td>0.0 <span class="ci">[0.0, 0.0]</span></td><td>-6.5 <span class="ci">[-13.5, 0.0]</span></td><td>-1.8 <span class="ci">[-3.7, 0.0]</span></td></tr></tbody></table>
+<div class="note">Read the threshold-triggered rows against the stochastic
+one. A blind that descends only as far as the glare source requires costs
+little circadian exposure, because the sun and the bright sky sit in the upper
+band of the aperture. The cost appears when the blind is operated the way
+people actually operate blinds — closed readily, reopened rarely.</div>
+
+<h2>E2 · Objective encoding versus optimisation algorithm</h2>
+<p class="sub">Every cell is a control design found by one algorithm under one
+encoding, on the same room and the same budget
+(16 evaluations, 61 unique simulations).
+Distances are Euclidean in normalised outcome space
+(frac_dgp_above_035, frac_medi_above_250, electric_kwh).</p>
+<table><thead><tr><th>Source of disagreement</th><th>mean outcome distance</th>
+</tr></thead><tbody>
+<tr><td>Changing the optimisation algorithm</td>
+<td>0.000 <span class="ci">[0.000, 0.000]</span></td></tr>
+<tr><td>Changing the objective encoding</td>
+<td>0.000 <span class="ci">[0.000, 0.000]</span></td></tr>
+<tr><td><strong>Ratio, encoding ÷ algorithm</strong></td>
+<td><strong>undefined (zero denominator)</strong></td></tr>
+</tbody></table>
+<div class="note warn">
+Distinct outcomes reached per encoding across all
+4 optimisers:
+<code>{"glare_only": 1, "energy_only": 1, "glare_energy": 1, "circadian_only": 1, "coupled_linear": 1, "coupled_constraint": 1}</code>.
+Per optimiser across all 6 encodings:
+<code>{"random_search": 1, "latin_hypercube": 1, "coordinate_descent": 1, "annealing": 1}</code>.
+The evaluation budget was at most 16 per cell;
+actual counts are recorded in JSON. When both dispersions are zero, this
+configuration cannot identify an encoding or optimiser effect.
+</div>
+<table><thead><tr><th>encoding \ optimiser</th><th>random_search</th><th>latin_hypercube</th><th>coordinate_descent</th><th>annealing</th></tr></thead><tbody><tr><td>glare_only</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td></tr><tr><td>energy_only</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td></tr><tr><td>glare_energy</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td></tr><tr><td>circadian_only</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td></tr><tr><td>coupled_linear</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td></tr><tr><td>coupled_constraint</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td><td style="background:rgba(31,78,121,0.80)">0.000</td></tr></tbody></table>
+<p class="sub">Shading darkness is distance from the grand mean outcome. Rows
+that differ from each other more than their own cells differ internally are
+encodings that disagree about what good means.</p>
+<table><thead><tr><th>encoding / optimiser</th><th>DGP&gt;.35 %</th>
+<th>mEDI≥250 %</th><th>kWh</th><th>mean cov</th><th>max cov</th>
+<th>dgp close</th></tr></thead><tbody><tr><td>circadian_only / annealing</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>circadian_only / coordinate_descent</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>circadian_only / latin_hypercube</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.79</td><td>0.327</td></tr><tr><td>circadian_only / random_search</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>coupled_constraint / annealing</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>coupled_constraint / coordinate_descent</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>coupled_constraint / latin_hypercube</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.79</td><td>0.327</td></tr><tr><td>coupled_constraint / random_search</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>coupled_linear / annealing</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>coupled_linear / coordinate_descent</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>coupled_linear / latin_hypercube</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.79</td><td>0.327</td></tr><tr><td>coupled_linear / random_search</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>energy_only / annealing</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>energy_only / coordinate_descent</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>energy_only / latin_hypercube</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.79</td><td>0.327</td></tr><tr><td>energy_only / random_search</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>glare_energy / annealing</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>glare_energy / coordinate_descent</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>glare_energy / latin_hypercube</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.79</td><td>0.327</td></tr><tr><td>glare_energy / random_search</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>glare_only / annealing</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>glare_only / coordinate_descent</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr><tr><td>glare_only / latin_hypercube</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.79</td><td>0.327</td></tr><tr><td>glare_only / random_search</td><td>0</td><td>100</td><td>7.90</td><td>0.00</td><td>0.70</td><td>0.319</td></tr></tbody></table>
+<h3 style="font-size:14px;margin:22px 0 6px">Encodings</h3>
+<table><thead><tr><th>key</th><th style="text-align:left">meaning</th></tr>
+</thead><tbody><tr><td>glare_only</td><td style="text-align:left;font-family:inherit">Minimise the fraction of occupied hours above DGP 0.35.  Nothing else enters.</td></tr><tr><td>energy_only</td><td style="text-align:left;font-family:inherit">Minimise cooling plus lighting electricity.</td></tr><tr><td>glare_energy</td><td style="text-align:left;font-family:inherit">Equal weight on glare exceedance and energy. The encoding most shading papers actually use.</td></tr><tr><td>circadian_only</td><td style="text-align:left;font-family:inherit">Maximise the fraction of occupied hours at or above 250 lx melanopic EDI.</td></tr><tr><td>coupled_linear</td><td style="text-align:left;font-family:inherit">Equal weight on glare, energy and circadian. An editorial choice, stated as one.</td></tr><tr><td>coupled_constraint</td><td style="text-align:left;font-family:inherit">Maximise threshold coverage with a soft glare penalty; energy breaks ties.</td></tr></tbody></table>
+
+<h2>E3 · Which way is the occupant facing?</h2>
+<p class="sub">The same room, the same controller, swept over
+12 view directions. Dashed ring is 250 lx melanopic EDI.
+The control decisions themselves move, because DGP depends on the view.</p>
+<div class="grid"><figure style="margin:0"><figcaption style="font-size:12px;color:#6c6660;text-align:center">Blinds never operated<br>4.64×</figcaption><svg viewBox="0 0 180 180" width="100%"><circle cx="90.0" cy="90.0" r="68.0" fill="#fff" stroke="#ddd8d0"/><line x1="90.0" y1="90.0" x2="90.0" y2="22.0" stroke="#e2ddd4"/><text x="90.0" y="15.0" font-size="9" text-anchor="middle" fill="#6c6660">N</text><line x1="90.0" y1="90.0" x2="158.0" y2="90.0" stroke="#e2ddd4"/><text x="169.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">E</text><line x1="90.0" y1="90.0" x2="90.0" y2="158.0" stroke="#e2ddd4"/><text x="90.0" y="173.0" font-size="9" text-anchor="middle" fill="#6c6660">S</text><line x1="90.0" y1="90.0" x2="22.0" y2="90.0" stroke="#e2ddd4"/><text x="11.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">W</text><circle cx="90.0" cy="90.0" r="4.0" fill="none" stroke="#a8341f" stroke-width="1" stroke-dasharray="3 3"/><polygon points="104.2,90.0 102.6,97.3 98.5,104.8 90.0,118.1 66.2,131.2 36.0,121.2 25.2,90.0 43.4,63.1 72.8,60.2 90.0,71.0 97.2,77.5 102.1,83.0 104.2,90.0" fill="#1f4e79" fill-opacity="0.22" stroke="#1f4e79" stroke-width="1.4"/></svg></figure><figure style="margin:0"><figcaption style="font-size:12px;color:#6c6660;text-align:center">Closes on glare or radiant discomfort<br>1.93×</figcaption><svg viewBox="0 0 180 180" width="100%"><circle cx="90.0" cy="90.0" r="68.0" fill="#fff" stroke="#ddd8d0"/><line x1="90.0" y1="90.0" x2="90.0" y2="22.0" stroke="#e2ddd4"/><text x="90.0" y="15.0" font-size="9" text-anchor="middle" fill="#6c6660">N</text><line x1="90.0" y1="90.0" x2="158.0" y2="90.0" stroke="#e2ddd4"/><text x="169.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">E</text><line x1="90.0" y1="90.0" x2="90.0" y2="158.0" stroke="#e2ddd4"/><text x="90.0" y="173.0" font-size="9" text-anchor="middle" fill="#6c6660">S</text><line x1="90.0" y1="90.0" x2="22.0" y2="90.0" stroke="#e2ddd4"/><text x="11.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">W</text><circle cx="90.0" cy="90.0" r="9.5" fill="none" stroke="#a8341f" stroke-width="1" stroke-dasharray="3 3"/><polygon points="124.0,90.0 120.2,107.5 110.5,125.4 90.0,133.6 60.7,140.8 36.6,120.8 25.2,90.0 36.3,59.0 62.7,42.7 90.0,47.1 107.2,60.1 119.0,73.3 124.0,90.0" fill="#1f4e79" fill-opacity="0.22" stroke="#1f4e79" stroke-width="1.4"/></svg></figure><figure style="margin:0"><figcaption style="font-size:12px;color:#6c6660;text-align:center">Illustrative stochastic operation<br>2.07×</figcaption><svg viewBox="0 0 180 180" width="100%"><circle cx="90.0" cy="90.0" r="68.0" fill="#fff" stroke="#ddd8d0"/><line x1="90.0" y1="90.0" x2="90.0" y2="22.0" stroke="#e2ddd4"/><text x="90.0" y="15.0" font-size="9" text-anchor="middle" fill="#6c6660">N</text><line x1="90.0" y1="90.0" x2="158.0" y2="90.0" stroke="#e2ddd4"/><text x="169.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">E</text><line x1="90.0" y1="90.0" x2="90.0" y2="158.0" stroke="#e2ddd4"/><text x="90.0" y="173.0" font-size="9" text-anchor="middle" fill="#6c6660">S</text><line x1="90.0" y1="90.0" x2="22.0" y2="90.0" stroke="#e2ddd4"/><text x="11.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">W</text><circle cx="90.0" cy="90.0" r="10.3" fill="none" stroke="#a8341f" stroke-width="1" stroke-dasharray="3 3"/><polygon points="121.7,90.0 118.2,106.3 108.5,122.0 90.0,138.0 62.3,138.0 36.1,121.1 25.2,90.0 35.2,58.4 62.1,41.7 90.0,49.2 106.0,62.3 117.1,74.4 121.7,90.0" fill="#1f4e79" fill-opacity="0.22" stroke="#1f4e79" stroke-width="1.4"/></svg></figure><figure style="margin:0"><figcaption style="font-size:12px;color:#6c6660;text-align:center">Glare-constrained, circadian-maximising<br>2.14×</figcaption><svg viewBox="0 0 180 180" width="100%"><circle cx="90.0" cy="90.0" r="68.0" fill="#fff" stroke="#ddd8d0"/><line x1="90.0" y1="90.0" x2="90.0" y2="22.0" stroke="#e2ddd4"/><text x="90.0" y="15.0" font-size="9" text-anchor="middle" fill="#6c6660">N</text><line x1="90.0" y1="90.0" x2="158.0" y2="90.0" stroke="#e2ddd4"/><text x="169.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">E</text><line x1="90.0" y1="90.0" x2="90.0" y2="158.0" stroke="#e2ddd4"/><text x="90.0" y="173.0" font-size="9" text-anchor="middle" fill="#6c6660">S</text><line x1="90.0" y1="90.0" x2="22.0" y2="90.0" stroke="#e2ddd4"/><text x="11.0" y="94.0" font-size="9" text-anchor="middle" fill="#6c6660">W</text><circle cx="90.0" cy="90.0" r="8.6" fill="none" stroke="#a8341f" stroke-width="1" stroke-dasharray="3 3"/><polygon points="120.7,90.0 117.3,105.8 108.4,121.9 90.0,136.4 57.6,146.1 35.6,121.4 25.7,90.0 34.1,57.7 60.0,38.1 90.0,49.8 105.6,63.0 116.2,74.9 120.7,90.0" fill="#1f4e79" fill-opacity="0.22" stroke="#1f4e79" stroke-width="1.4"/></svg></figure></div>
+<div class="note">Results in this section depend on the assumed view
+direction; the spread across headings is a model output for this room.</div>
+
+<div class="prov">provenance: {"version": "0.3.2", "spectral_inputs": {"official_action_spectra": true, "official_daylight_components": false, "official_solar_spectrum": true}, "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294, "k_mel_v_d65_official_W_per_lm": 0.0013262, "official_action_spectra": true, "official_solar_spectrum": true, "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846, "representative_days": [{"key": "dry_winter", "month": 1, "day": 15, "cloud": 0.15, "weight": 90}, {"key": "pre_monsoon", "month": 4, "day": 15, "cloud": 0.3, "weight": 90}, {"key": "monsoon", "month": 7, "day": 15, "cloud": 0.8, "weight": 120}, {"key": "post_monsoon", "month": 10, "day": 15, "cloud": 0.35, "weight": 65}], "known_biases": {"one_bounce_canopy": {"magnitude": "unquantified", "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.", "fix": "none in this version; treat canopy scenarios as indicative.", "affects": "canopy scenarios only."}}, "state_rule": "One controller across Jan-Apr-Jul-Oct synthetic representative-day sequence; not a chronological annual simulation."}</div>
+</div></body></html>

@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="446.4pt" height="226.8pt" viewBox="0 0 446.4 226.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-07T02:49:46.497613</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 226.8 
+L 446.4 226.8 
+L 446.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 58.032 181.44 
+L 428.544 181.44 
+L 428.544 31.752 
+L 58.032 31.752 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 74.873455 181.44 
+L 74.873455 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mcfd51cadd3" d="M 0 0 
+L 0 3.5 
+" style="stroke: #192d38; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="74.873455" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- −10.0 -->
+      <g style="fill: #192d38" transform="translate(64.203455 194.9925) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-2212" d="M 3523 2285 
+L 3523 1818 
+L 758 1818 
+L 758 2285 
+L 3523 2285 
+z
+" transform="scale(0.015625)"/>
+        <path id="ShadeParadoxText-Regular-31" d="M 1254 371 
+L 1254 4074 
+Q 1171 4038 1004 3992 
+Q 838 3946 657 3906 
+Q 477 3866 352 3846 
+L 278 4218 
+Q 506 4266 744 4357 
+Q 982 4448 1193 4568 
+Q 1405 4688 1555 4816 
+L 1562 4816 
+L 1946 4752 
+L 1946 374 
+L 2720 317 
+L 2720 0 
+L 416 0 
+L 416 317 
+L 1254 371 
+z
+" transform="scale(0.015625)"/>
+        <path id="ShadeParadoxText-Regular-30" d="M 2019 -61 
+Q 1587 -61 1267 126 
+Q 947 314 739 648 
+Q 531 982 432 1430 
+Q 333 1878 333 2400 
+Q 336 3168 574 3707 
+Q 813 4246 1219 4529 
+Q 1626 4813 2131 4813 
+Q 2573 4813 2888 4638 
+Q 3203 4464 3404 4142 
+Q 3606 3821 3704 3379 
+Q 3802 2938 3798 2403 
+Q 3795 1645 3571 1093 
+Q 3347 541 2947 240 
+Q 2547 -61 2019 -61 
+z
+M 2061 272 
+Q 2422 272 2636 505 
+Q 2851 739 2945 1201 
+Q 3040 1664 3040 2352 
+Q 3040 2867 2984 3264 
+Q 2928 3661 2814 3933 
+Q 2701 4205 2518 4344 
+Q 2336 4483 2077 4483 
+Q 1814 4483 1627 4358 
+Q 1440 4234 1320 3981 
+Q 1200 3728 1144 3344 
+Q 1088 2960 1088 2438 
+Q 1088 1952 1144 1555 
+Q 1200 1158 1318 870 
+Q 1437 582 1622 427 
+Q 1808 272 2061 272 
+z
+" transform="scale(0.015625)"/>
+        <path id="ShadeParadoxText-Regular-2e" d="M 784 -64 
+Q 621 -64 501 48 
+Q 381 160 381 346 
+Q 381 547 523 680 
+Q 666 813 851 813 
+Q 1053 813 1153 688 
+Q 1254 563 1254 403 
+Q 1254 192 1115 64 
+Q 976 -64 784 -64 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-31" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(112.200012 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(176.750015 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(202.200012 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 116.977091 181.44 
+L 116.977091 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="116.977091" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- −9.5 -->
+      <g style="fill: #192d38" transform="translate(108.522716 194.9925) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-39" d="M 1920 4816 
+Q 2339 4816 2644 4669 
+Q 2950 4522 3150 4262 
+Q 3350 4003 3446 3659 
+Q 3542 3315 3542 2922 
+Q 3542 2262 3332 1707 
+Q 3123 1152 2766 729 
+Q 2410 307 1963 41 
+Q 1517 -224 1040 -304 
+L 896 -19 
+Q 1280 106 1584 310 
+Q 1888 515 2113 784 
+Q 2339 1053 2491 1371 
+Q 2643 1690 2723 2035 
+Q 2627 1923 2478 1820 
+Q 2330 1718 2136 1651 
+Q 1942 1584 1718 1584 
+Q 1382 1584 1113 1694 
+Q 845 1805 654 2008 
+Q 464 2211 365 2492 
+Q 266 2774 266 3123 
+Q 266 3459 374 3763 
+Q 483 4067 694 4304 
+Q 906 4541 1214 4678 
+Q 1523 4816 1920 4816 
+z
+M 1840 1978 
+Q 2086 1978 2284 2061 
+Q 2483 2144 2617 2264 
+Q 2752 2384 2803 2486 
+Q 2806 2534 2811 2587 
+Q 2816 2640 2819 2691 
+Q 2822 2742 2822 2790 
+Q 2822 3056 2798 3305 
+Q 2774 3555 2713 3769 
+Q 2653 3984 2545 4145 
+Q 2438 4307 2273 4396 
+Q 2109 4486 1875 4486 
+Q 1565 4486 1365 4304 
+Q 1165 4122 1069 3838 
+Q 973 3555 973 3261 
+Q 973 2797 1085 2515 
+Q 1197 2234 1393 2106 
+Q 1590 1978 1840 1978 
+z
+" transform="scale(0.015625)"/>
+        <path id="ShadeParadoxText-Regular-35" d="M 509 288 
+Q 602 278 702 273 
+Q 803 269 890 269 
+Q 1360 269 1741 451 
+Q 2122 634 2344 934 
+Q 2566 1235 2566 1600 
+Q 2566 1920 2457 2125 
+Q 2349 2330 2134 2429 
+Q 1920 2528 1600 2528 
+Q 1456 2528 1283 2501 
+Q 1110 2474 945 2426 
+Q 781 2378 662 2320 
+L 467 2445 
+L 784 4755 
+L 2739 4755 
+L 2803 4877 
+L 3203 4877 
+L 3088 4211 
+L 1277 4211 
+L 986 2733 
+Q 1085 2790 1246 2851 
+Q 1408 2912 1598 2952 
+Q 1789 2992 1984 2992 
+Q 2400 2992 2696 2843 
+Q 2992 2694 3149 2411 
+Q 3306 2128 3306 1725 
+Q 3306 1347 3139 1019 
+Q 2973 691 2662 441 
+Q 2352 192 1920 51 
+Q 1488 -90 957 -90 
+Q 886 -90 811 -86 
+Q 736 -83 659 -73 
+Q 582 -64 509 -45 
+L 509 288 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-39" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(127.450012 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-35" transform="translate(152.900009 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 159.080727 181.44 
+L 159.080727 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="159.080727" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- −9.0 -->
+      <g style="fill: #192d38" transform="translate(150.382602 194.9925) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-39" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(127.450012 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(152.900009 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 201.184364 181.44 
+L 201.184364 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="201.184364" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- −8.5 -->
+      <g style="fill: #192d38" transform="translate(192.769989 194.9925) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-38" d="M 1885 -61 
+Q 1600 -61 1321 8 
+Q 1043 77 814 222 
+Q 586 368 448 601 
+Q 310 835 310 1165 
+Q 310 1405 417 1633 
+Q 525 1862 744 2059 
+Q 963 2256 1299 2403 
+Q 1082 2541 904 2705 
+Q 726 2870 617 3088 
+Q 509 3306 509 3606 
+Q 509 4000 718 4269 
+Q 928 4538 1259 4677 
+Q 1590 4816 1962 4816 
+Q 2371 4816 2680 4683 
+Q 2989 4550 3160 4310 
+Q 3331 4070 3331 3750 
+Q 3331 3382 3110 3072 
+Q 2890 2762 2474 2541 
+Q 2752 2384 2985 2200 
+Q 3219 2016 3360 1779 
+Q 3501 1542 3501 1222 
+Q 3501 931 3373 694 
+Q 3245 458 3021 288 
+Q 2797 118 2505 28 
+Q 2214 -61 1885 -61 
+z
+M 1933 262 
+Q 2157 262 2361 363 
+Q 2566 464 2696 649 
+Q 2826 835 2826 1088 
+Q 2826 1373 2643 1566 
+Q 2461 1760 2174 1917 
+Q 1888 2074 1574 2243 
+Q 1386 2144 1237 1998 
+Q 1088 1853 1001 1672 
+Q 915 1491 915 1286 
+Q 915 973 1036 744 
+Q 1158 515 1385 388 
+Q 1613 262 1933 262 
+z
+M 2173 2701 
+Q 2454 2854 2620 3088 
+Q 2787 3322 2787 3606 
+Q 2787 3891 2683 4094 
+Q 2579 4298 2390 4405 
+Q 2202 4512 1942 4512 
+Q 1715 4512 1524 4421 
+Q 1334 4330 1217 4160 
+Q 1101 3990 1101 3757 
+Q 1101 3507 1254 3324 
+Q 1408 3142 1653 2995 
+Q 1898 2848 2173 2701 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-38" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(126.450012 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-35" transform="translate(151.900009 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 243.288 181.44 
+L 243.288 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="243.288" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- −8.0 -->
+      <g style="fill: #192d38" transform="translate(234.629875 194.9925) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-38" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(126.450012 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(151.900009 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 327.495273 181.44 
+L 327.495273 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="327.495273" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- −7.0 -->
+      <g style="fill: #192d38" transform="translate(318.939023 194.9925) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-37" d="M 1917 -3 
+L 1094 0 
+Q 1402 714 1704 1435 
+Q 2006 2157 2294 2875 
+Q 2582 3594 2848 4294 
+L 918 4269 
+L 650 3408 
+L 240 3485 
+L 381 4755 
+L 3331 4755 
+L 3466 4586 
+L 1917 -3 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-37" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(123.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(149.350006 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 411.702545 181.44 
+L 411.702545 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mcfd51cadd3" x="411.702545" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- −6.0 -->
+      <g style="fill: #192d38" transform="translate(403.00817 194.9925) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-36" d="M 1955 -90 
+Q 1555 -90 1252 62 
+Q 950 214 745 484 
+Q 541 755 437 1116 
+Q 333 1478 333 1894 
+Q 333 2464 528 2979 
+Q 723 3494 1070 3910 
+Q 1418 4326 1872 4606 
+Q 2326 4886 2842 4986 
+L 2989 4701 
+Q 2579 4566 2273 4355 
+Q 1968 4144 1749 3877 
+Q 1530 3610 1382 3298 
+Q 1235 2986 1142 2646 
+Q 1286 2810 1544 2954 
+Q 1802 3098 2170 3098 
+Q 2637 3098 2957 2899 
+Q 3277 2701 3440 2357 
+Q 3603 2013 3603 1571 
+Q 3603 1229 3492 928 
+Q 3382 627 3169 398 
+Q 2957 170 2649 40 
+Q 2342 -90 1955 -90 
+z
+M 2064 2707 
+Q 1779 2707 1576 2617 
+Q 1373 2528 1245 2408 
+Q 1117 2288 1062 2192 
+Q 1056 2134 1051 2051 
+Q 1046 1968 1046 1776 
+Q 1046 1542 1078 1316 
+Q 1110 1091 1180 897 
+Q 1251 704 1361 555 
+Q 1472 406 1629 321 
+Q 1786 237 1994 237 
+Q 2298 237 2496 406 
+Q 2694 576 2793 848 
+Q 2893 1120 2893 1434 
+Q 2893 1878 2787 2158 
+Q 2682 2438 2494 2572 
+Q 2307 2707 2064 2707 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-2212"/>
+       <use xlink:href="#ShadeParadoxText-Regular-36" transform="translate(66.900009 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-2e" transform="translate(127.350021 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(152.800018 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_8">
+     <!-- Assumed stochastic closing intercept -->
+     <g style="fill: #192d38" transform="translate(171.762375 207.48125) scale(0.08 -0.08)">
+      <defs>
+       <path id="ShadeParadoxText-Regular-41" d="M 355 378 
+L 1942 4794 
+L 2669 4794 
+L 4157 378 
+L 4557 317 
+L 4557 0 
+L 2864 0 
+L 2864 317 
+L 3382 378 
+L 3085 1322 
+L 1229 1322 
+L 925 381 
+L 1475 317 
+L 1475 0 
+L -42 0 
+L -45 317 
+L 355 378 
+z
+M 2966 1699 
+L 2336 3770 
+L 2195 4298 
+L 2035 3754 
+L 1344 1699 
+L 2966 1699 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-73" d="M 1504 -70 
+Q 1264 -70 1024 -24 
+Q 784 22 587 84 
+Q 390 147 285 195 
+L 285 1014 
+L 704 1014 
+L 819 515 
+Q 861 454 968 395 
+Q 1075 336 1220 301 
+Q 1366 266 1526 266 
+Q 1779 266 1936 331 
+Q 2093 397 2163 515 
+Q 2234 634 2234 790 
+Q 2234 973 2118 1099 
+Q 2003 1226 1787 1331 
+Q 1571 1437 1261 1555 
+Q 947 1677 737 1830 
+Q 528 1984 421 2192 
+Q 314 2400 314 2688 
+Q 314 2973 485 3184 
+Q 656 3395 950 3513 
+Q 1245 3632 1613 3632 
+Q 1888 3632 2096 3592 
+Q 2304 3552 2446 3505 
+Q 2589 3459 2666 3437 
+L 2666 2643 
+L 2278 2643 
+L 2150 3117 
+Q 2122 3168 2037 3209 
+Q 1952 3251 1835 3276 
+Q 1718 3302 1594 3302 
+Q 1395 3306 1246 3246 
+Q 1098 3187 1018 3081 
+Q 938 2976 938 2832 
+Q 938 2608 1058 2475 
+Q 1178 2342 1368 2256 
+Q 1558 2170 1770 2080 
+Q 1978 1994 2176 1899 
+Q 2374 1805 2531 1680 
+Q 2688 1555 2782 1380 
+Q 2877 1206 2877 963 
+Q 2877 653 2713 421 
+Q 2550 189 2241 59 
+Q 1933 -70 1504 -70 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-75" d="M 3142 -61 
+Q 2966 -61 2878 6 
+Q 2790 74 2790 243 
+L 2790 464 
+Q 2672 342 2489 219 
+Q 2307 96 2089 13 
+Q 1872 -70 1645 -70 
+Q 1043 -70 790 254 
+Q 538 579 538 1309 
+L 538 3158 
+L 182 3261 
+L 182 3549 
+L 1082 3632 
+L 1088 3632 
+L 1210 3549 
+L 1210 1354 
+Q 1210 1005 1264 789 
+Q 1318 573 1459 473 
+Q 1600 374 1862 374 
+Q 2048 374 2209 435 
+Q 2371 496 2500 579 
+Q 2630 662 2714 736 
+L 2714 3158 
+L 2250 3264 
+L 2250 3549 
+L 3226 3632 
+L 3235 3632 
+L 3382 3549 
+L 3382 326 
+L 3763 326 
+L 3760 35 
+Q 3648 10 3496 -25 
+Q 3344 -61 3142 -61 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-6d" d="M 282 0 
+L 282 317 
+L 669 371 
+L 669 3059 
+L 211 3171 
+L 211 3520 
+L 1123 3632 
+L 1235 3558 
+L 1277 3299 
+L 1270 3094 
+Q 1414 3222 1640 3347 
+Q 1866 3472 2117 3553 
+Q 2368 3635 2579 3635 
+Q 2922 3635 3130 3520 
+Q 3338 3405 3446 3158 
+Q 3571 3267 3780 3376 
+Q 3990 3485 4236 3560 
+Q 4483 3635 4714 3635 
+Q 5014 3635 5214 3548 
+Q 5414 3462 5531 3284 
+Q 5648 3107 5699 2830 
+Q 5750 2554 5750 2170 
+L 5750 371 
+L 6205 317 
+L 6205 0 
+L 4685 0 
+L 4685 317 
+L 5075 371 
+L 5075 2147 
+Q 5075 2496 5024 2726 
+Q 4973 2957 4824 3069 
+Q 4675 3181 4387 3181 
+Q 4234 3181 4075 3133 
+Q 3917 3085 3776 3011 
+Q 3635 2938 3536 2864 
+Q 3555 2768 3568 2657 
+Q 3581 2547 3587 2422 
+Q 3594 2298 3594 2160 
+L 3594 371 
+L 4045 317 
+L 4045 0 
+L 2496 0 
+L 2496 317 
+L 2915 371 
+L 2915 2163 
+Q 2915 2512 2870 2737 
+Q 2826 2963 2691 3070 
+Q 2557 3178 2282 3178 
+Q 2035 3178 1777 3056 
+Q 1520 2934 1347 2800 
+L 1347 371 
+L 1770 317 
+L 1770 0 
+L 282 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-65" d="M 1782 -70 
+Q 1245 -70 891 166 
+Q 538 403 363 822 
+Q 189 1242 189 1789 
+Q 189 2211 312 2553 
+Q 435 2896 659 3141 
+Q 883 3386 1188 3517 
+Q 1494 3648 1859 3648 
+Q 2458 3648 2787 3318 
+Q 3117 2989 3136 2371 
+Q 3136 2179 3128 2035 
+Q 3120 1891 3094 1779 
+L 893 1779 
+Q 899 1472 969 1214 
+Q 1040 957 1177 768 
+Q 1315 579 1516 476 
+Q 1718 374 1984 374 
+Q 2253 374 2528 470 
+Q 2803 566 2947 685 
+L 3072 403 
+Q 2960 285 2757 176 
+Q 2554 67 2299 -1 
+Q 2045 -70 1782 -70 
+z
+M 896 2118 
+L 2432 2118 
+Q 2438 2173 2443 2253 
+Q 2448 2333 2448 2394 
+Q 2448 2784 2286 3035 
+Q 2125 3286 1741 3286 
+Q 1571 3286 1424 3228 
+Q 1277 3171 1163 3036 
+Q 1050 2902 982 2676 
+Q 915 2451 896 2118 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-64" d="M 1613 -70 
+Q 1338 -70 1085 34 
+Q 832 138 637 355 
+Q 442 573 328 904 
+Q 214 1235 214 1690 
+Q 214 2230 433 2673 
+Q 653 3117 1067 3382 
+Q 1482 3648 2067 3648 
+Q 2230 3648 2382 3629 
+Q 2534 3610 2659 3581 
+L 2659 4774 
+L 2010 4848 
+L 2010 5130 
+L 3165 5242 
+L 3181 5242 
+L 3325 5136 
+L 3325 330 
+L 3699 330 
+L 3699 32 
+Q 3568 3 3390 -30 
+Q 3213 -64 3024 -64 
+Q 2874 -64 2794 -13 
+Q 2714 38 2714 234 
+L 2714 442 
+Q 2605 310 2440 192 
+Q 2275 74 2065 2 
+Q 1856 -70 1613 -70 
+z
+M 1872 384 
+Q 2054 384 2209 441 
+Q 2365 499 2481 585 
+Q 2598 672 2659 755 
+L 2659 3101 
+Q 2611 3178 2427 3235 
+Q 2243 3293 2026 3293 
+Q 1722 3293 1477 3141 
+Q 1232 2989 1086 2657 
+Q 941 2326 934 1786 
+Q 928 1283 1056 974 
+Q 1184 666 1400 525 
+Q 1616 384 1872 384 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-20" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-74" d="M 1299 -67 
+Q 950 -67 761 94 
+Q 573 256 573 675 
+L 573 3126 
+L 115 3126 
+L 115 3424 
+Q 179 3440 256 3461 
+Q 333 3482 400 3502 
+Q 467 3523 499 3546 
+Q 538 3574 563 3606 
+Q 589 3638 611 3680 
+Q 634 3722 656 3782 
+Q 688 3862 725 4000 
+Q 762 4138 798 4272 
+Q 835 4406 851 4477 
+L 1232 4477 
+L 1242 3555 
+L 2307 3555 
+L 2307 3126 
+L 1245 3126 
+L 1245 1165 
+Q 1245 816 1272 659 
+Q 1299 502 1380 459 
+Q 1462 416 1626 416 
+Q 1808 416 2013 464 
+Q 2218 512 2323 560 
+L 2422 272 
+Q 2323 195 2142 116 
+Q 1962 38 1741 -14 
+Q 1520 -67 1299 -67 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-6f" d="M 211 1789 
+Q 211 2237 352 2584 
+Q 493 2931 734 3168 
+Q 976 3405 1278 3526 
+Q 1581 3648 1904 3648 
+Q 2464 3648 2822 3401 
+Q 3181 3155 3352 2736 
+Q 3523 2317 3523 1789 
+Q 3523 1338 3382 990 
+Q 3242 643 3000 406 
+Q 2758 170 2456 50 
+Q 2154 -70 1830 -70 
+Q 1411 -70 1104 70 
+Q 797 211 600 464 
+Q 403 717 307 1054 
+Q 211 1392 211 1789 
+z
+M 1872 294 
+Q 2160 294 2363 454 
+Q 2566 614 2673 936 
+Q 2781 1258 2781 1741 
+Q 2781 2070 2731 2352 
+Q 2682 2634 2576 2843 
+Q 2470 3053 2296 3168 
+Q 2122 3283 1872 3283 
+Q 1581 3283 1376 3123 
+Q 1171 2963 1062 2643 
+Q 954 2323 954 1837 
+Q 954 1504 1005 1222 
+Q 1056 941 1165 733 
+Q 1274 525 1450 409 
+Q 1626 294 1872 294 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-63" d="M 1824 -70 
+Q 1286 -70 928 168 
+Q 570 406 392 817 
+Q 214 1229 211 1741 
+Q 208 2134 323 2480 
+Q 438 2826 665 3088 
+Q 893 3350 1229 3499 
+Q 1565 3648 2006 3648 
+Q 2224 3648 2408 3613 
+Q 2592 3578 2731 3531 
+Q 2870 3485 2960 3456 
+L 2928 2470 
+L 2515 2470 
+L 2371 3120 
+Q 2362 3174 2285 3214 
+Q 2208 3254 2102 3278 
+Q 1997 3302 1888 3302 
+Q 1600 3302 1385 3147 
+Q 1171 2992 1049 2688 
+Q 928 2384 925 1936 
+Q 922 1539 1000 1244 
+Q 1078 950 1220 758 
+Q 1363 566 1555 470 
+Q 1747 374 1974 374 
+Q 2170 374 2342 417 
+Q 2515 461 2656 525 
+Q 2797 589 2896 656 
+L 3018 397 
+Q 2909 288 2723 179 
+Q 2538 70 2306 0 
+Q 2074 -70 1824 -70 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-68" d="M 682 365 
+L 682 4774 
+L 147 4842 
+L 147 5123 
+L 1190 5242 
+L 1206 5242 
+L 1350 5146 
+L 1350 3661 
+L 1325 3120 
+Q 1440 3226 1645 3346 
+Q 1850 3466 2102 3550 
+Q 2355 3635 2611 3635 
+Q 3018 3635 3240 3481 
+Q 3462 3328 3548 3001 
+Q 3635 2675 3635 2160 
+L 3635 368 
+L 4090 317 
+L 4090 0 
+L 2563 0 
+L 2563 317 
+L 2966 368 
+L 2966 2163 
+Q 2966 2512 2920 2737 
+Q 2874 2963 2731 3070 
+Q 2589 3178 2307 3178 
+Q 2141 3178 1966 3120 
+Q 1792 3062 1633 2976 
+Q 1475 2890 1360 2800 
+L 1360 371 
+L 1795 317 
+L 1795 0 
+L 282 0 
+L 282 317 
+L 682 365 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-61" d="M 1210 -70 
+Q 922 -70 678 42 
+Q 435 154 286 382 
+Q 138 611 138 960 
+Q 138 1283 312 1508 
+Q 486 1734 787 1872 
+Q 1088 2010 1469 2077 
+Q 1850 2144 2262 2150 
+L 2262 2378 
+Q 2262 2666 2200 2832 
+Q 2138 2998 1981 3068 
+Q 1824 3139 1533 3139 
+Q 1158 3139 878 3020 
+Q 598 2902 445 2819 
+L 282 3155 
+Q 346 3213 558 3326 
+Q 771 3440 1072 3534 
+Q 1373 3629 1702 3629 
+Q 2154 3629 2418 3499 
+Q 2682 3370 2795 3093 
+Q 2909 2816 2909 2371 
+L 2909 326 
+L 3286 326 
+L 3286 42 
+Q 3216 26 3099 3 
+Q 2982 -19 2852 -36 
+Q 2723 -54 2614 -54 
+Q 2448 -54 2377 -3 
+Q 2307 48 2307 237 
+L 2307 442 
+Q 2227 362 2070 240 
+Q 1914 118 1694 24 
+Q 1475 -70 1210 -70 
+z
+M 1488 368 
+Q 1658 368 1877 469 
+Q 2096 570 2262 714 
+L 2262 1814 
+Q 1782 1811 1472 1708 
+Q 1162 1606 1010 1432 
+Q 858 1258 858 1037 
+Q 858 797 941 649 
+Q 1024 502 1166 435 
+Q 1309 368 1488 368 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-69" d="M 214 0 
+L 214 317 
+L 733 371 
+L 733 3059 
+L 253 3171 
+L 253 3517 
+L 1245 3632 
+L 1258 3632 
+L 1405 3520 
+L 1405 365 
+L 1914 317 
+L 1914 0 
+L 214 0 
+z
+M 1021 4189 
+Q 816 4189 712 4313 
+Q 608 4438 608 4605 
+Q 608 4790 721 4936 
+Q 835 5082 1069 5082 
+L 1075 5082 
+Q 1277 5082 1381 4960 
+Q 1485 4838 1485 4669 
+Q 1485 4483 1371 4336 
+Q 1258 4189 1027 4189 
+L 1021 4189 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-6c" d="M 650 371 
+L 650 4774 
+L 131 4842 
+L 131 5123 
+L 1162 5242 
+L 1171 5242 
+L 1312 5146 
+L 1312 365 
+L 1866 317 
+L 1866 0 
+L 131 0 
+L 131 317 
+L 650 371 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-6e" d="M 669 371 
+L 669 3059 
+L 211 3171 
+L 211 3520 
+L 1123 3632 
+L 1142 3632 
+L 1277 3520 
+L 1277 3254 
+L 1270 3094 
+Q 1411 3219 1628 3344 
+Q 1846 3469 2100 3552 
+Q 2355 3635 2605 3635 
+Q 3011 3635 3236 3481 
+Q 3462 3328 3555 3003 
+Q 3648 2678 3648 2166 
+L 3648 365 
+L 4093 320 
+L 4093 0 
+L 2576 0 
+L 2576 317 
+L 2970 365 
+L 2970 2163 
+Q 2970 2512 2917 2737 
+Q 2864 2963 2720 3070 
+Q 2576 3178 2301 3178 
+Q 2131 3178 1955 3118 
+Q 1779 3059 1620 2971 
+Q 1462 2883 1347 2794 
+L 1347 371 
+L 1782 317 
+L 1782 0 
+L 262 0 
+L 262 317 
+L 669 371 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-67" d="M 1773 -1728 
+Q 1363 -1728 1068 -1657 
+Q 774 -1587 585 -1457 
+Q 397 -1328 307 -1147 
+Q 218 -966 218 -739 
+Q 218 -534 299 -364 
+Q 381 -195 517 -70 
+Q 653 54 816 125 
+Q 669 205 592 339 
+Q 515 474 515 659 
+Q 515 803 585 939 
+Q 656 1075 771 1190 
+Q 886 1306 1027 1376 
+Q 707 1517 536 1782 
+Q 365 2048 365 2419 
+Q 365 2806 579 3081 
+Q 794 3357 1133 3502 
+Q 1472 3648 1850 3648 
+Q 2166 3648 2425 3581 
+Q 2685 3514 2867 3376 
+Q 2938 3450 3136 3550 
+Q 3334 3651 3581 3651 
+L 3779 3651 
+L 3779 3088 
+L 3098 3088 
+Q 3142 3018 3176 2930 
+Q 3210 2842 3229 2739 
+Q 3248 2637 3248 2528 
+Q 3248 2134 3057 1843 
+Q 2867 1552 2534 1392 
+Q 2202 1232 1773 1232 
+Q 1642 1232 1518 1246 
+Q 1395 1261 1283 1286 
+Q 1184 1206 1118 1104 
+Q 1053 1002 1053 890 
+Q 1053 656 1214 581 
+Q 1376 506 1760 506 
+L 2486 506 
+Q 2906 506 3176 397 
+Q 3446 288 3576 86 
+Q 3706 -115 3706 -400 
+Q 3706 -682 3554 -923 
+Q 3402 -1165 3133 -1345 
+Q 2864 -1526 2515 -1627 
+Q 2166 -1728 1773 -1728 
+z
+M 1830 -1357 
+Q 2134 -1357 2412 -1264 
+Q 2691 -1171 2870 -995 
+Q 3050 -819 3050 -566 
+Q 3050 -387 2992 -264 
+Q 2934 -141 2774 -77 
+Q 2614 -13 2304 -13 
+L 1536 -13 
+Q 1427 -13 1326 -6 
+Q 1226 0 1136 19 
+Q 1008 -96 937 -256 
+Q 867 -416 867 -624 
+Q 867 -851 958 -1016 
+Q 1050 -1181 1259 -1269 
+Q 1469 -1357 1830 -1357 
+z
+M 1837 1581 
+Q 2218 1581 2390 1808 
+Q 2563 2035 2563 2461 
+Q 2563 2752 2478 2937 
+Q 2394 3123 2226 3214 
+Q 2058 3306 1814 3306 
+Q 1597 3306 1425 3224 
+Q 1254 3142 1155 2960 
+Q 1056 2778 1056 2477 
+Q 1056 2218 1136 2014 
+Q 1216 1811 1389 1696 
+Q 1562 1581 1837 1581 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-72" d="M 237 0 
+L 237 314 
+L 714 355 
+L 714 3059 
+L 253 3171 
+L 253 3520 
+L 1136 3632 
+L 1152 3632 
+L 1290 3520 
+L 1290 3405 
+L 1274 2838 
+L 1290 2838 
+Q 1318 2890 1408 3013 
+Q 1498 3136 1650 3273 
+Q 1802 3411 2013 3508 
+Q 2224 3606 2493 3606 
+Q 2586 3606 2640 3595 
+Q 2694 3584 2730 3574 
+L 2730 2886 
+Q 2691 2912 2593 2936 
+Q 2496 2960 2342 2960 
+Q 2083 2960 1900 2894 
+Q 1718 2829 1595 2744 
+Q 1472 2659 1382 2592 
+L 1382 362 
+L 2192 307 
+L 2192 0 
+L 237 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-70" d="M 141 -1549 
+L 141 -1235 
+L 605 -1165 
+L 605 3059 
+L 138 3171 
+L 138 3520 
+L 1050 3632 
+L 1062 3632 
+L 1197 3520 
+L 1197 3142 
+Q 1299 3258 1460 3374 
+Q 1622 3491 1835 3569 
+Q 2048 3648 2307 3648 
+Q 2669 3648 2989 3469 
+Q 3309 3290 3505 2906 
+Q 3702 2522 3702 1904 
+Q 3702 1498 3577 1141 
+Q 3453 784 3214 510 
+Q 2976 237 2637 83 
+Q 2298 -70 1869 -70 
+Q 1712 -70 1537 -44 
+Q 1363 -19 1251 22 
+L 1264 -515 
+L 1264 -1165 
+L 1930 -1235 
+L 1930 -1549 
+L 141 -1549 
+z
+M 1891 266 
+Q 2198 266 2446 426 
+Q 2694 586 2841 925 
+Q 2989 1264 2989 1808 
+Q 2989 2176 2915 2441 
+Q 2842 2707 2712 2875 
+Q 2582 3043 2411 3121 
+Q 2240 3200 2048 3200 
+Q 1869 3200 1715 3149 
+Q 1562 3098 1446 3021 
+Q 1331 2944 1264 2870 
+L 1264 458 
+Q 1312 390 1488 328 
+Q 1664 266 1891 266 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#ShadeParadoxText-Regular-41"/>
+      <use xlink:href="#ShadeParadoxText-Regular-73" transform="translate(70.500015 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-73" transform="translate(119.550018 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-75" transform="translate(168.600021 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6d" transform="translate(231.550034 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(330.850052 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-64" transform="translate(383.000061 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(443.250076 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-73" transform="translate(466.950073 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-74" transform="translate(516.000076 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6f" transform="translate(555.000076 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-63" transform="translate(613.350082 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-68" transform="translate(663.900085 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-61" transform="translate(730.150101 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-73" transform="translate(783.750107 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-74" transform="translate(832.80011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-69" transform="translate(871.80011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-63" transform="translate(904.200104 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(954.750107 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-63" transform="translate(978.450104 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6c" transform="translate(1029.000107 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6f" transform="translate(1059.950104 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-73" transform="translate(1118.30011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-69" transform="translate(1167.350113 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6e" transform="translate(1199.750107 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-67" transform="translate(1266.05011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(1326.600113 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-69" transform="translate(1350.30011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6e" transform="translate(1382.700104 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-74" transform="translate(1449.000107 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(1488.000107 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-72" transform="translate(1540.150116 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-63" transform="translate(1585.150116 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(1635.700119 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-70" transform="translate(1687.850128 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-74" transform="translate(1749.150131 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15">
+      <path d="M 58.032 181.44 
+L 428.544 181.44 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <defs>
+       <path id="ma3a53d20a4" d="M 0 0 
+L -3.5 0 
+" style="stroke: #192d38; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="181.44" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 20 -->
+      <g style="fill: #192d38" transform="translate(41.112 184.71625) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-32" d="M 176 269 
+Q 493 464 821 739 
+Q 1149 1014 1451 1340 
+Q 1754 1667 1992 2012 
+Q 2230 2358 2369 2699 
+Q 2509 3040 2509 3344 
+Q 2509 3680 2390 3891 
+Q 2272 4102 2061 4203 
+Q 1850 4304 1578 4304 
+Q 1286 4304 1075 4205 
+Q 864 4106 720 3974 
+Q 576 3843 483 3738 
+L 195 3997 
+Q 285 4131 425 4272 
+Q 566 4413 763 4536 
+Q 960 4659 1209 4734 
+Q 1459 4810 1760 4810 
+Q 2218 4810 2541 4638 
+Q 2864 4467 3037 4168 
+Q 3210 3869 3210 3485 
+Q 3210 3155 3075 2804 
+Q 2941 2454 2710 2107 
+Q 2480 1760 2187 1438 
+Q 1894 1117 1576 845 
+Q 1258 573 950 378 
+L 2944 522 
+L 3165 1062 
+L 3494 995 
+L 3334 0 
+L 275 0 
+L 176 269 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-32"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(59.450012 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_17">
+      <path d="M 58.032 163.62 
+L 428.544 163.62 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="163.62" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 30 -->
+      <g style="fill: #192d38" transform="translate(41.28825 166.89625) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-33" d="M 1005 -93 
+Q 858 -93 680 -72 
+Q 502 -51 374 -16 
+L 374 349 
+Q 486 317 624 302 
+Q 762 288 877 288 
+Q 1398 288 1761 446 
+Q 2125 605 2313 869 
+Q 2502 1133 2502 1456 
+Q 2502 1738 2390 1933 
+Q 2278 2128 2041 2232 
+Q 1805 2336 1430 2346 
+Q 1398 2333 1312 2310 
+Q 1226 2288 1141 2265 
+Q 1056 2243 1027 2237 
+L 915 2576 
+Q 1043 2602 1172 2642 
+Q 1302 2682 1421 2730 
+Q 1680 2835 1883 2963 
+Q 2086 3091 2204 3260 
+Q 2323 3430 2326 3664 
+Q 2326 3923 2224 4073 
+Q 2122 4224 1938 4288 
+Q 1754 4352 1517 4352 
+Q 1280 4352 1080 4302 
+Q 880 4253 720 4171 
+Q 560 4090 445 3997 
+L 272 4291 
+Q 374 4397 585 4517 
+Q 797 4637 1086 4721 
+Q 1376 4806 1712 4806 
+Q 2074 4806 2374 4702 
+Q 2675 4598 2856 4372 
+Q 3037 4147 3037 3779 
+Q 3037 3542 2934 3345 
+Q 2832 3149 2657 2995 
+Q 2483 2842 2267 2726 
+Q 2051 2611 1827 2531 
+Q 2262 2570 2585 2448 
+Q 2909 2326 3089 2089 
+Q 3270 1853 3274 1546 
+Q 3277 1190 3118 891 
+Q 2960 592 2664 373 
+Q 2368 154 1947 30 
+Q 1526 -93 1005 -93 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-33"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(57.25 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_19">
+      <path d="M 58.032 145.8 
+L 428.544 145.8 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="145.8" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 40 -->
+      <g style="fill: #192d38" transform="translate(40.94075 149.07625) scale(0.08 -0.08)">
+       <defs>
+        <path id="ShadeParadoxText-Regular-34" d="M 2336 0 
+L 2336 973 
+L 333 973 
+L 166 1261 
+Q 358 1587 540 1940 
+Q 723 2294 894 2660 
+Q 1066 3027 1227 3393 
+Q 1389 3760 1542 4107 
+Q 1696 4454 1840 4768 
+L 2022 4768 
+L 2541 4502 
+L 1072 1750 
+L 781 1325 
+L 2336 1424 
+L 2362 2685 
+L 2934 2730 
+L 2934 1456 
+L 3808 1501 
+L 3808 973 
+L 2934 973 
+L 2934 0 
+L 2336 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#ShadeParadoxText-Regular-34"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(61.600006 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_21">
+      <path d="M 58.032 127.98 
+L 428.544 127.98 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="127.98" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 50 -->
+      <g style="fill: #192d38" transform="translate(41.192 131.25625) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-35"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(58.450012 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_23">
+      <path d="M 58.032 110.16 
+L 428.544 110.16 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="110.16" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 60 -->
+      <g style="fill: #192d38" transform="translate(41.032 113.43625) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-36"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(60.450012 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_25">
+      <path d="M 58.032 92.34 
+L 428.544 92.34 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="92.34" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 70 -->
+      <g style="fill: #192d38" transform="translate(41.30825 95.61625) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-37"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(57 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_27">
+      <path d="M 58.032 74.52 
+L 428.544 74.52 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="74.52" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 80 -->
+      <g style="fill: #192d38" transform="translate(41.1045 77.79625) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-38"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(59.550003 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_29">
+      <path d="M 58.032 56.7 
+L 428.544 56.7 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="56.7" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 90 -->
+      <g style="fill: #192d38" transform="translate(41.0245 59.97625) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-39"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(60.550003 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_31">
+      <path d="M 58.032 38.88 
+L 428.544 38.88 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #d7e0e5; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#ma3a53d20a4" x="58.032" y="38.88" style="fill: #192d38; stroke: #192d38; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 100 -->
+      <g style="fill: #192d38" transform="translate(37.08075 42.15625) scale(0.08 -0.08)">
+       <use xlink:href="#ShadeParadoxText-Regular-31"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(45.300003 0)"/>
+       <use xlink:href="#ShadeParadoxText-Regular-30" transform="translate(109.850006 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_18">
+     <!-- Mean mEDI retained (%) -->
+     <g style="fill: #192d38" transform="translate(31.1445 154.910375) rotate(-90) scale(0.08 -0.08)">
+      <defs>
+       <path id="ShadeParadoxText-Regular-4d" d="M 573 378 
+L 1088 4355 
+L 355 4432 
+L 355 4755 
+L 2096 4755 
+L 2960 1878 
+L 3168 1066 
+L 3363 1878 
+L 4246 4755 
+L 5955 4755 
+L 5955 4432 
+L 5229 4355 
+L 5741 384 
+L 6298 317 
+L 6298 0 
+L 4451 0 
+L 4451 317 
+L 5034 378 
+L 4733 3251 
+L 4611 4486 
+L 4346 3562 
+L 3286 218 
+L 2851 218 
+L 1846 3283 
+L 1501 4490 
+L 1370 3251 
+L 1072 378 
+L 1699 317 
+L 1699 0 
+L 42 0 
+L 42 317 
+L 573 378 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-45" d="M 787 378 
+L 787 4355 
+L 262 4432 
+L 262 4755 
+L 3552 4755 
+L 3642 3760 
+L 3277 3760 
+L 3072 4384 
+L 1482 4422 
+L 1482 2627 
+L 2541 2646 
+L 2634 3174 
+L 2989 3174 
+L 2989 1706 
+L 2634 1706 
+L 2544 2256 
+L 1482 2272 
+L 1482 358 
+L 3267 422 
+L 3632 1245 
+L 4006 1133 
+L 3811 0 
+L 256 0 
+L 256 317 
+L 787 378 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-44" d="M 2170 -51 
+Q 2051 -48 1921 -40 
+Q 1792 -32 1657 -22 
+Q 1523 -13 1392 -6 
+Q 1261 0 1133 0 
+L 253 0 
+L 253 317 
+L 787 378 
+L 787 4355 
+L 285 4432 
+L 285 4755 
+L 1126 4755 
+Q 1325 4755 1509 4768 
+Q 1693 4781 1877 4792 
+Q 2061 4803 2256 4803 
+Q 2870 4803 3313 4643 
+Q 3757 4483 4041 4185 
+Q 4326 3888 4462 3469 
+Q 4598 3050 4598 2528 
+Q 4598 1946 4424 1467 
+Q 4250 989 3928 645 
+Q 3606 301 3160 118 
+Q 2714 -64 2170 -51 
+z
+M 2234 307 
+Q 2707 314 3072 547 
+Q 3437 781 3645 1245 
+Q 3853 1709 3853 2400 
+Q 3853 2899 3747 3283 
+Q 3642 3667 3424 3928 
+Q 3206 4189 2875 4323 
+Q 2544 4458 2096 4458 
+Q 1965 4458 1849 4448 
+Q 1734 4438 1640 4428 
+Q 1546 4419 1472 4416 
+L 1472 358 
+Q 1600 333 1726 320 
+Q 1853 307 1977 305 
+Q 2102 304 2234 307 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-49" d="M 845 378 
+L 845 4355 
+L 253 4432 
+L 253 4755 
+L 2134 4755 
+L 2134 4432 
+L 1536 4355 
+L 1536 378 
+L 2134 310 
+L 2134 0 
+L 256 0 
+L 256 317 
+L 845 378 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-28" d="M 429 2138 
+Q 429 2701 558 3169 
+Q 688 3638 891 4008 
+Q 1094 4378 1316 4648 
+Q 1539 4918 1729 5083 
+Q 1920 5248 2022 5302 
+L 2291 5117 
+Q 2211 5066 2067 4920 
+Q 1923 4774 1756 4534 
+Q 1590 4294 1436 3960 
+Q 1283 3626 1182 3197 
+Q 1082 2768 1072 2243 
+Q 1056 1661 1149 1182 
+Q 1242 704 1397 331 
+Q 1552 -42 1728 -310 
+Q 1904 -579 2061 -745 
+Q 2218 -912 2307 -979 
+L 2022 -1181 
+Q 1936 -1130 1750 -978 
+Q 1565 -826 1339 -563 
+Q 1114 -301 906 81 
+Q 698 464 563 974 
+Q 429 1485 429 2138 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-25" d="M 2038 0 
+L 4093 4806 
+L 4579 4806 
+L 2531 0 
+L 2038 0 
+z
+M 1485 2051 
+Q 1126 2051 870 2230 
+Q 614 2410 478 2707 
+Q 342 3005 342 3357 
+Q 342 3789 515 4093 
+Q 688 4397 973 4555 
+Q 1258 4714 1594 4714 
+Q 2000 4714 2253 4538 
+Q 2506 4362 2622 4062 
+Q 2739 3763 2739 3395 
+Q 2739 2960 2563 2661 
+Q 2387 2362 2100 2206 
+Q 1814 2051 1485 2051 
+z
+M 1526 2390 
+Q 1830 2390 1990 2656 
+Q 2150 2922 2150 3370 
+Q 2150 3654 2088 3881 
+Q 2026 4109 1893 4241 
+Q 1760 4374 1555 4374 
+Q 1254 4374 1096 4105 
+Q 938 3837 938 3386 
+Q 938 3126 1002 2897 
+Q 1066 2669 1197 2529 
+Q 1328 2390 1526 2390 
+z
+M 5027 128 
+Q 4669 128 4413 307 
+Q 4157 486 4021 784 
+Q 3885 1082 3885 1434 
+Q 3885 1869 4059 2171 
+Q 4234 2474 4518 2632 
+Q 4803 2790 5139 2790 
+Q 5542 2790 5793 2612 
+Q 6045 2435 6165 2136 
+Q 6285 1837 6285 1472 
+Q 6285 1037 6107 737 
+Q 5930 438 5643 283 
+Q 5357 128 5027 128 
+z
+M 5066 467 
+Q 5370 467 5533 734 
+Q 5696 1002 5696 1446 
+Q 5696 1728 5632 1955 
+Q 5568 2182 5437 2316 
+Q 5306 2451 5101 2451 
+Q 4797 2451 4637 2182 
+Q 4477 1914 4477 1469 
+Q 4477 1206 4542 977 
+Q 4608 749 4739 608 
+Q 4870 467 5066 467 
+z
+" transform="scale(0.015625)"/>
+       <path id="ShadeParadoxText-Regular-29" d="M 2326 1990 
+Q 2326 1427 2195 958 
+Q 2064 490 1861 120 
+Q 1658 -250 1437 -520 
+Q 1216 -790 1024 -955 
+Q 832 -1120 730 -1174 
+L 461 -989 
+Q 544 -938 686 -792 
+Q 829 -646 997 -406 
+Q 1165 -166 1317 168 
+Q 1469 502 1571 931 
+Q 1674 1360 1683 1885 
+Q 1696 2467 1603 2945 
+Q 1510 3424 1355 3797 
+Q 1200 4170 1024 4438 
+Q 848 4707 693 4873 
+Q 538 5040 445 5107 
+L 730 5309 
+Q 816 5258 1003 5106 
+Q 1190 4954 1414 4691 
+Q 1638 4429 1846 4046 
+Q 2054 3664 2190 3153 
+Q 2326 2643 2326 1990 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#ShadeParadoxText-Regular-4d"/>
+      <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(99.050018 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-61" transform="translate(151.200027 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6e" transform="translate(204.800034 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(271.100037 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6d" transform="translate(294.800034 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-45" transform="translate(394.100052 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-44" transform="translate(457.550064 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-49" transform="translate(532.750076 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(570.050079 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-72" transform="translate(593.750076 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(638.750076 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-74" transform="translate(690.900085 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-61" transform="translate(729.900085 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-69" transform="translate(783.500092 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-6e" transform="translate(815.900085 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(882.200089 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-64" transform="translate(934.350098 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(994.600113 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-28" transform="translate(1018.30011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-25" transform="translate(1061.30011 0)"/>
+      <use xlink:href="#ShadeParadoxText-Regular-29" transform="translate(1164.850128 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_33">
+    <path d="M 74.873455 42.494807 
+L 116.977091 46.140982 
+L 159.080727 54.71948 
+L 201.184364 68.138015 
+L 243.288 86.439997 
+L 327.495273 125.608043 
+L 411.702545 163.072553 
+" clip-path="url(#p7857944755)" style="fill: none; stroke: #bd8435; stroke-width: 1.4; stroke-linecap: square"/>
+    <defs>
+     <path id="m93bef227ab" d="M 0 1.5 
+C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066 
+C 1.341951 0.77937 1.5 0.397805 1.5 0 
+C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066 
+C 0.77937 -1.341951 0.397805 -1.5 0 -1.5 
+C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066 
+C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0 
+C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066 
+C -0.77937 1.341951 -0.397805 1.5 0 1.5 
+z
+" style="stroke: #bd8435"/>
+    </defs>
+    <g clip-path="url(#p7857944755)">
+     <use xlink:href="#m93bef227ab" x="74.873455" y="42.494807" style="fill: #bd8435; stroke: #bd8435"/>
+     <use xlink:href="#m93bef227ab" x="116.977091" y="46.140982" style="fill: #bd8435; stroke: #bd8435"/>
+     <use xlink:href="#m93bef227ab" x="159.080727" y="54.71948" style="fill: #bd8435; stroke: #bd8435"/>
+     <use xlink:href="#m93bef227ab" x="201.184364" y="68.138015" style="fill: #bd8435; stroke: #bd8435"/>
+     <use xlink:href="#m93bef227ab" x="243.288" y="86.439997" style="fill: #bd8435; stroke: #bd8435"/>
+     <use xlink:href="#m93bef227ab" x="327.495273" y="125.608043" style="fill: #bd8435; stroke: #bd8435"/>
+     <use xlink:href="#m93bef227ab" x="411.702545" y="163.072553" style="fill: #bd8435; stroke: #bd8435"/>
+    </g>
+   </g>
+   <g id="line2d_34">
+    <path d="M 243.288 181.44 
+L 243.288 31.752 
+" clip-path="url(#p7857944755)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #192d38; stroke-width: 0.7"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 58.032 181.44 
+L 58.032 31.752 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 58.032 181.44 
+L 428.544 181.44 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <!-- Default −8 -->
+    <g style="fill: #192d38" transform="translate(247.498364 56.1245) scale(0.08 -0.08)">
+     <defs>
+      <path id="ShadeParadoxText-Regular-66" d="M 246 -3 
+L 246 317 
+L 787 371 
+L 787 3126 
+L 186 3126 
+L 186 3421 
+L 787 3546 
+L 787 3856 
+Q 787 4160 908 4424 
+Q 1030 4688 1238 4886 
+Q 1446 5085 1708 5197 
+Q 1971 5309 2253 5309 
+Q 2410 5309 2494 5291 
+Q 2579 5274 2634 5254 
+L 2630 4630 
+Q 2573 4678 2417 4718 
+Q 2262 4758 2048 4755 
+Q 1843 4758 1713 4691 
+Q 1584 4624 1521 4473 
+Q 1459 4323 1459 4064 
+L 1459 3555 
+L 2342 3555 
+L 2342 3126 
+L 1459 3126 
+L 1459 365 
+L 2166 317 
+L 2166 -3 
+L 246 -3 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#ShadeParadoxText-Regular-44"/>
+     <use xlink:href="#ShadeParadoxText-Regular-65" transform="translate(75.200012 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-66" transform="translate(127.350021 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-61" transform="translate(165.250031 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-75" transform="translate(218.850037 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-6c" transform="translate(281.800049 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-74" transform="translate(312.750046 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-20" transform="translate(351.750046 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-2212" transform="translate(375.450043 0)"/>
+     <use xlink:href="#ShadeParadoxText-Regular-38" transform="translate(442.350052 0)"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <!-- Stochastic-rule sensitivity at fixed slope 1.6 -->
+    <g style="fill: #192d38" transform="translate(58.032 25.752) scale(0.08 -0.08)">
+     <defs>
+      <path id="ShadeParadoxText-Bold-53" d="M 1862 -70 
+Q 1482 -70 1187 -1 
+Q 893 67 688 136 
+Q 483 205 371 214 
+L 426 1395 
+L 954 1395 
+L 1094 573 
+Q 1146 518 1256 464 
+Q 1366 410 1523 373 
+Q 1680 336 1869 336 
+Q 2170 336 2358 424 
+Q 2547 512 2636 675 
+Q 2726 838 2726 1053 
+Q 2726 1286 2588 1452 
+Q 2451 1619 2206 1758 
+Q 1962 1898 1632 2042 
+Q 1446 2128 1232 2249 
+Q 1018 2371 829 2545 
+Q 640 2720 521 2963 
+Q 403 3206 403 3533 
+Q 403 3878 595 4171 
+Q 787 4464 1161 4638 
+Q 1536 4813 2086 4813 
+Q 2349 4813 2555 4781 
+Q 2762 4749 2918 4707 
+Q 3075 4666 3188 4629 
+Q 3302 4592 3373 4586 
+L 3334 3469 
+L 2822 3469 
+L 2685 4256 
+Q 2656 4291 2568 4329 
+Q 2480 4368 2353 4393 
+Q 2227 4419 2074 4419 
+Q 1802 4419 1632 4337 
+Q 1462 4256 1380 4115 
+Q 1299 3974 1299 3792 
+Q 1299 3526 1452 3348 
+Q 1606 3171 1865 3032 
+Q 2125 2893 2432 2742 
+Q 2637 2646 2854 2524 
+Q 3072 2403 3259 2238 
+Q 3446 2074 3561 1856 
+Q 3677 1638 3677 1344 
+Q 3677 1098 3581 846 
+Q 3485 595 3273 388 
+Q 3062 182 2713 56 
+Q 2365 -70 1862 -70 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-74" d="M 1299 -61 
+Q 906 -61 709 123 
+Q 512 307 512 717 
+L 512 3059 
+L 96 3059 
+L 96 3421 
+Q 170 3450 248 3472 
+Q 326 3494 392 3518 
+Q 458 3542 496 3574 
+Q 538 3616 568 3654 
+Q 598 3693 624 3745 
+Q 650 3798 675 3869 
+Q 710 3952 745 4064 
+Q 781 4176 814 4293 
+Q 848 4410 874 4502 
+L 1395 4502 
+L 1424 3555 
+L 2371 3555 
+L 2371 3059 
+L 1430 3059 
+L 1430 1267 
+Q 1430 928 1454 773 
+Q 1478 618 1553 578 
+Q 1629 538 1773 538 
+Q 1933 538 2101 574 
+Q 2269 611 2371 653 
+L 2493 294 
+Q 2384 208 2195 128 
+Q 2006 48 1772 -6 
+Q 1539 -61 1299 -61 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-6f" d="M 186 1770 
+Q 186 2240 330 2592 
+Q 474 2944 722 3177 
+Q 970 3411 1286 3529 
+Q 1603 3648 1949 3648 
+Q 2493 3648 2867 3421 
+Q 3242 3194 3438 2781 
+Q 3635 2368 3635 1808 
+Q 3635 1331 3491 977 
+Q 3347 624 3097 390 
+Q 2848 157 2531 43 
+Q 2214 -70 1866 -70 
+Q 1462 -70 1148 59 
+Q 835 189 620 430 
+Q 406 672 296 1011 
+Q 186 1350 186 1770 
+z
+M 1923 346 
+Q 2160 346 2318 494 
+Q 2477 643 2561 953 
+Q 2646 1264 2646 1741 
+Q 2646 2090 2606 2366 
+Q 2566 2643 2480 2836 
+Q 2394 3030 2254 3131 
+Q 2115 3232 1914 3232 
+Q 1677 3232 1512 3083 
+Q 1347 2934 1260 2625 
+Q 1174 2317 1174 1837 
+Q 1174 1485 1216 1208 
+Q 1258 931 1347 739 
+Q 1437 547 1579 446 
+Q 1722 346 1923 346 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-63" d="M 1837 -70 
+Q 1267 -70 902 168 
+Q 538 406 362 817 
+Q 186 1229 186 1747 
+Q 186 2166 310 2513 
+Q 435 2861 672 3115 
+Q 909 3370 1246 3509 
+Q 1584 3648 2006 3648 
+Q 2275 3648 2472 3608 
+Q 2669 3568 2809 3523 
+Q 2950 3478 3050 3456 
+L 3008 2358 
+L 2448 2358 
+L 2291 3066 
+Q 2278 3123 2216 3158 
+Q 2154 3194 2070 3211 
+Q 1987 3229 1914 3229 
+Q 1690 3229 1520 3099 
+Q 1350 2970 1254 2686 
+Q 1158 2403 1155 1939 
+Q 1152 1578 1216 1306 
+Q 1280 1034 1398 853 
+Q 1517 672 1680 581 
+Q 1843 490 2042 490 
+Q 2237 490 2401 528 
+Q 2566 566 2700 625 
+Q 2835 685 2934 749 
+L 3085 416 
+Q 2995 320 2812 206 
+Q 2630 93 2379 11 
+Q 2128 -70 1837 -70 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-68" d="M 605 438 
+L 605 4678 
+L 118 4758 
+L 118 5104 
+L 1318 5245 
+L 1331 5245 
+L 1504 5123 
+L 1507 3702 
+L 1466 3142 
+Q 1578 3242 1766 3357 
+Q 1955 3472 2201 3552 
+Q 2448 3632 2723 3632 
+Q 3133 3632 3355 3480 
+Q 3578 3328 3664 3013 
+Q 3750 2698 3750 2205 
+L 3750 442 
+L 4166 384 
+L 4166 0 
+L 2480 0 
+L 2480 384 
+L 2845 442 
+L 2845 2205 
+Q 2845 2512 2803 2705 
+Q 2762 2899 2645 2992 
+Q 2528 3085 2294 3085 
+Q 2150 3085 2008 3038 
+Q 1866 2992 1741 2920 
+Q 1616 2848 1526 2771 
+L 1526 442 
+L 1910 384 
+L 1910 0 
+L 246 0 
+L 246 384 
+L 605 438 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-61" d="M 1216 -70 
+Q 928 -70 681 51 
+Q 435 173 286 413 
+Q 138 653 138 1002 
+Q 138 1302 301 1524 
+Q 464 1747 752 1889 
+Q 1040 2032 1419 2104 
+Q 1798 2176 2234 2179 
+L 2234 2342 
+Q 2234 2589 2182 2737 
+Q 2131 2886 1987 2955 
+Q 1843 3024 1568 3024 
+Q 1197 3024 921 2918 
+Q 646 2813 493 2736 
+L 288 3152 
+Q 365 3216 584 3331 
+Q 803 3446 1118 3540 
+Q 1434 3635 1802 3635 
+Q 2291 3635 2571 3496 
+Q 2851 3357 2971 3070 
+Q 3091 2784 3091 2342 
+L 3091 394 
+L 3440 394 
+L 3440 35 
+Q 3366 16 3228 -6 
+Q 3091 -29 2936 -45 
+Q 2781 -61 2653 -61 
+Q 2435 -61 2360 3 
+Q 2285 67 2285 262 
+L 2285 432 
+Q 2205 339 2054 219 
+Q 1904 99 1693 14 
+Q 1482 -70 1216 -70 
+z
+M 1632 461 
+Q 1770 461 1939 541 
+Q 2109 621 2234 736 
+L 2234 1786 
+Q 1834 1786 1582 1690 
+Q 1331 1594 1214 1437 
+Q 1098 1280 1098 1091 
+Q 1098 883 1166 742 
+Q 1235 602 1355 531 
+Q 1475 461 1632 461 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-73" d="M 1622 -70 
+Q 1322 -70 1062 -19 
+Q 803 32 606 94 
+Q 410 157 298 189 
+L 298 1027 
+L 832 1027 
+L 979 528 
+Q 1011 477 1104 427 
+Q 1197 378 1323 347 
+Q 1450 317 1578 317 
+Q 1789 317 1920 374 
+Q 2051 432 2115 534 
+Q 2179 637 2179 765 
+Q 2179 938 2049 1054 
+Q 1920 1171 1697 1273 
+Q 1475 1376 1184 1501 
+Q 902 1622 705 1777 
+Q 509 1933 408 2144 
+Q 307 2355 307 2637 
+Q 307 2928 478 3152 
+Q 650 3376 962 3505 
+Q 1274 3635 1693 3635 
+Q 2003 3635 2227 3593 
+Q 2451 3552 2603 3505 
+Q 2755 3459 2851 3443 
+L 2851 2602 
+L 2349 2602 
+L 2198 3088 
+Q 2173 3130 2104 3168 
+Q 2035 3206 1936 3230 
+Q 1837 3254 1718 3254 
+Q 1546 3254 1416 3203 
+Q 1286 3152 1217 3057 
+Q 1149 2963 1149 2835 
+Q 1149 2643 1264 2523 
+Q 1379 2403 1568 2316 
+Q 1757 2230 1965 2144 
+Q 2170 2058 2366 1957 
+Q 2563 1856 2721 1726 
+Q 2880 1597 2973 1417 
+Q 3066 1238 3066 992 
+Q 3066 694 2909 452 
+Q 2752 211 2430 70 
+Q 2109 -70 1622 -70 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-69" d="M 243 0 
+L 243 384 
+L 688 442 
+L 688 2947 
+L 237 3069 
+L 237 3498 
+L 1411 3638 
+L 1424 3638 
+L 1603 3514 
+L 1603 438 
+L 2035 384 
+L 2035 0 
+L 243 0 
+z
+M 1067 4138 
+Q 824 4138 696 4288 
+Q 568 4438 568 4627 
+Q 568 4854 707 5020 
+Q 846 5187 1122 5187 
+L 1128 5187 
+Q 1371 5187 1499 5041 
+Q 1627 4896 1627 4710 
+Q 1627 4483 1488 4310 
+Q 1349 4138 1074 4138 
+L 1067 4138 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-2d" d="M 3110 2358 
+L 3110 1757 
+L 576 1757 
+L 576 2358 
+L 3110 2358 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-72" d="M 227 0 
+L 227 381 
+L 650 432 
+L 650 2947 
+L 240 3066 
+L 240 3510 
+L 1235 3638 
+L 1254 3638 
+L 1421 3514 
+L 1421 3373 
+L 1402 2813 
+L 1421 2813 
+Q 1450 2893 1542 3025 
+Q 1635 3158 1785 3296 
+Q 1936 3434 2137 3526 
+Q 2339 3619 2586 3619 
+Q 2675 3619 2737 3606 
+Q 2800 3594 2835 3578 
+L 2835 2656 
+Q 2774 2701 2660 2729 
+Q 2547 2758 2362 2758 
+Q 2157 2758 2001 2712 
+Q 1846 2666 1737 2606 
+Q 1629 2547 1558 2496 
+L 1558 435 
+L 2301 378 
+L 2301 0 
+L 227 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-75" d="M 3139 -61 
+Q 2925 -61 2829 27 
+Q 2733 115 2733 294 
+L 2733 464 
+Q 2630 339 2454 216 
+Q 2278 93 2065 11 
+Q 1853 -70 1629 -70 
+Q 1011 -70 750 245 
+Q 490 560 490 1290 
+L 490 3098 
+L 170 3187 
+L 170 3549 
+L 1258 3632 
+L 1264 3632 
+L 1398 3549 
+L 1398 1293 
+Q 1398 986 1446 805 
+Q 1494 624 1611 542 
+Q 1728 461 1933 461 
+Q 2099 461 2233 509 
+Q 2368 557 2467 624 
+Q 2566 691 2630 749 
+L 2630 3098 
+L 2205 3197 
+L 2205 3549 
+L 3366 3632 
+L 3382 3632 
+L 3533 3549 
+L 3533 400 
+L 3888 400 
+L 3885 35 
+Q 3770 10 3578 -25 
+Q 3386 -61 3139 -61 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-6c" d="M 598 442 
+L 598 4678 
+L 125 4758 
+L 125 5104 
+L 1312 5245 
+L 1325 5245 
+L 1498 5123 
+L 1498 438 
+L 1965 384 
+L 1965 0 
+L 150 0 
+L 150 384 
+L 598 442 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-65" d="M 1859 -70 
+Q 1277 -70 907 166 
+Q 538 403 363 822 
+Q 189 1242 189 1782 
+Q 189 2218 313 2563 
+Q 438 2909 665 3150 
+Q 893 3392 1209 3520 
+Q 1526 3648 1910 3648 
+Q 2560 3648 2902 3309 
+Q 3245 2970 3261 2358 
+Q 3261 2150 3248 1995 
+Q 3235 1840 3210 1725 
+L 1133 1725 
+Q 1142 1437 1211 1211 
+Q 1280 986 1403 826 
+Q 1526 666 1704 582 
+Q 1882 499 2115 499 
+Q 2378 499 2642 590 
+Q 2906 682 3050 781 
+L 3210 432 
+Q 3107 323 2899 206 
+Q 2691 90 2420 10 
+Q 2150 -70 1859 -70 
+z
+M 1130 2115 
+L 2358 2115 
+Q 2362 2179 2366 2249 
+Q 2371 2320 2371 2387 
+Q 2371 2768 2246 3001 
+Q 2122 3235 1808 3235 
+Q 1667 3235 1548 3184 
+Q 1430 3133 1339 3009 
+Q 1248 2886 1193 2668 
+Q 1139 2451 1130 2115 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-20" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-6e" d="M 637 442 
+L 637 2947 
+L 230 3066 
+L 230 3510 
+L 1299 3638 
+L 1318 3638 
+L 1475 3514 
+L 1475 3267 
+L 1469 3114 
+Q 1603 3238 1809 3356 
+Q 2016 3475 2264 3553 
+Q 2512 3632 2774 3632 
+Q 3162 3632 3397 3491 
+Q 3632 3350 3737 3040 
+Q 3843 2730 3843 2224 
+L 3843 438 
+L 4234 387 
+L 4234 0 
+L 2576 0 
+L 2576 384 
+L 2918 438 
+L 2918 2205 
+Q 2918 2522 2865 2714 
+Q 2813 2906 2685 2995 
+Q 2557 3085 2333 3085 
+Q 2182 3085 2038 3033 
+Q 1894 2982 1771 2910 
+Q 1648 2838 1558 2768 
+L 1558 442 
+L 1942 384 
+L 1942 0 
+L 266 0 
+L 266 384 
+L 637 442 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-76" d="M 1501 -51 
+L 262 3104 
+L -26 3187 
+L -26 3555 
+L 1670 3555 
+L 1670 3187 
+L 1274 3104 
+L 1814 1363 
+L 2016 694 
+L 2189 1347 
+L 2771 3104 
+L 2368 3187 
+L 2368 3555 
+L 3779 3555 
+L 3779 3187 
+L 3446 3104 
+L 2243 -51 
+L 1501 -51 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-79" d="M 950 -1619 
+Q 835 -1619 742 -1603 
+Q 650 -1587 589 -1558 
+L 589 -838 
+Q 634 -870 731 -892 
+Q 829 -915 938 -915 
+Q 1094 -915 1220 -865 
+Q 1347 -816 1454 -707 
+Q 1562 -598 1658 -424 
+Q 1754 -250 1843 0 
+L 1498 0 
+L 291 3104 
+L 3 3187 
+L 3 3555 
+L 1766 3555 
+L 1766 3187 
+L 1306 3110 
+L 1869 1338 
+L 2099 589 
+L 2298 1341 
+L 2819 3110 
+L 2416 3187 
+L 2416 3555 
+L 3805 3555 
+L 3805 3187 
+L 3491 3110 
+Q 3344 2659 3195 2216 
+Q 3046 1773 2912 1379 
+Q 2778 986 2669 672 
+Q 2560 358 2489 158 
+Q 2419 -42 2397 -86 
+Q 2211 -579 2019 -921 
+Q 1827 -1264 1574 -1441 
+Q 1322 -1619 950 -1619 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-66" d="M 224 0 
+L 224 384 
+L 733 442 
+L 733 3059 
+L 195 3059 
+L 192 3418 
+L 733 3546 
+L 733 3834 
+Q 733 4154 861 4427 
+Q 989 4701 1213 4907 
+Q 1437 5114 1726 5229 
+Q 2016 5344 2333 5344 
+Q 2506 5344 2603 5323 
+Q 2701 5302 2746 5286 
+L 2742 4509 
+Q 2659 4573 2496 4613 
+Q 2333 4653 2141 4650 
+Q 1958 4653 1848 4600 
+Q 1738 4547 1686 4428 
+Q 1635 4310 1635 4112 
+L 1635 3555 
+L 2448 3555 
+L 2448 3059 
+L 1635 3059 
+L 1635 435 
+L 2307 384 
+L 2307 0 
+L 224 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-78" d="M 448 442 
+L 1491 1747 
+L 448 3110 
+L 125 3187 
+L 125 3555 
+L 1949 3555 
+L 1949 3187 
+L 1536 3110 
+L 2035 2403 
+L 2202 2131 
+L 2368 2403 
+L 2883 3110 
+L 2454 3187 
+L 2454 3555 
+L 3821 3555 
+L 3821 3187 
+L 3462 3110 
+L 2474 1866 
+L 3568 438 
+L 3894 378 
+L 3894 0 
+L 2080 0 
+L 2080 378 
+L 2454 442 
+L 1955 1190 
+L 1763 1472 
+L 1603 1194 
+L 1085 442 
+L 1581 378 
+L 1581 0 
+L 58 0 
+L 58 378 
+L 448 442 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-64" d="M 1594 -70 
+Q 1309 -70 1057 34 
+Q 806 138 612 350 
+Q 419 563 310 897 
+Q 202 1232 202 1693 
+Q 202 2218 418 2662 
+Q 634 3107 1058 3377 
+Q 1482 3648 2096 3648 
+Q 2224 3648 2341 3633 
+Q 2458 3619 2557 3594 
+L 2557 4678 
+L 1930 4765 
+L 1930 5123 
+L 3251 5245 
+L 3274 5245 
+L 3453 5110 
+L 3453 390 
+L 3795 390 
+L 3795 26 
+Q 3658 -3 3445 -36 
+Q 3232 -70 3034 -70 
+Q 2845 -70 2749 -11 
+Q 2653 48 2653 262 
+L 2653 442 
+Q 2547 298 2382 182 
+Q 2218 67 2014 -1 
+Q 1811 -70 1594 -70 
+z
+M 1930 461 
+Q 2077 461 2200 505 
+Q 2323 550 2414 619 
+Q 2506 688 2557 755 
+L 2557 3082 
+Q 2512 3146 2371 3192 
+Q 2230 3238 2064 3238 
+Q 1814 3238 1612 3099 
+Q 1411 2960 1291 2643 
+Q 1171 2326 1165 1795 
+Q 1158 1322 1260 1027 
+Q 1363 733 1537 597 
+Q 1712 461 1930 461 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-70" d="M 205 -1549 
+L 205 -1184 
+L 618 -1104 
+L 618 2950 
+L 202 3066 
+L 202 3507 
+L 1261 3638 
+L 1274 3638 
+L 1430 3514 
+L 1430 3155 
+Q 1523 3270 1675 3384 
+Q 1827 3498 2028 3573 
+Q 2230 3648 2467 3648 
+Q 2842 3648 3158 3470 
+Q 3475 3293 3667 2907 
+Q 3859 2522 3859 1898 
+Q 3859 1504 3737 1149 
+Q 3616 794 3376 518 
+Q 3136 243 2785 86 
+Q 2435 -70 1974 -70 
+Q 1850 -70 1712 -48 
+Q 1574 -26 1491 3 
+L 1510 -522 
+L 1510 -1104 
+L 2102 -1184 
+L 2102 -1549 
+L 205 -1549 
+z
+M 1997 320 
+Q 2243 320 2448 464 
+Q 2653 608 2776 933 
+Q 2899 1258 2899 1795 
+Q 2899 2144 2841 2393 
+Q 2784 2643 2678 2803 
+Q 2573 2963 2435 3036 
+Q 2298 3110 2134 3110 
+Q 1994 3110 1870 3070 
+Q 1747 3030 1654 2969 
+Q 1562 2909 1510 2845 
+L 1510 477 
+Q 1555 419 1688 369 
+Q 1821 320 1997 320 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-31" d="M 1155 445 
+L 1155 3920 
+Q 1078 3891 918 3852 
+Q 758 3814 588 3779 
+Q 419 3744 310 3731 
+L 224 4205 
+Q 464 4253 729 4349 
+Q 995 4445 1228 4566 
+Q 1462 4688 1613 4816 
+L 1619 4816 
+L 2102 4752 
+L 2102 448 
+L 2819 378 
+L 2819 0 
+L 374 0 
+L 374 378 
+L 1155 445 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-2e" d="M 848 -58 
+Q 656 -58 509 80 
+Q 362 218 362 432 
+Q 362 669 525 821 
+Q 688 973 922 973 
+Q 1155 973 1284 822 
+Q 1414 672 1414 480 
+Q 1414 230 1252 86 
+Q 1091 -58 848 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="ShadeParadoxText-Bold-36" d="M 1990 -102 
+Q 1574 -102 1259 46 
+Q 944 195 731 457 
+Q 518 720 411 1073 
+Q 304 1427 304 1834 
+Q 304 2445 523 2974 
+Q 742 3504 1113 3915 
+Q 1485 4326 1947 4584 
+Q 2410 4842 2896 4912 
+L 3085 4566 
+Q 2717 4451 2435 4262 
+Q 2154 4074 1947 3827 
+Q 1741 3581 1598 3289 
+Q 1456 2998 1366 2682 
+Q 1510 2816 1742 2931 
+Q 1974 3046 2317 3046 
+Q 2752 3046 3064 2859 
+Q 3376 2672 3541 2334 
+Q 3706 1997 3706 1546 
+Q 3706 1197 3594 897 
+Q 3482 598 3262 374 
+Q 3043 150 2723 24 
+Q 2403 -102 1990 -102 
+z
+M 2061 2566 
+Q 1846 2566 1689 2504 
+Q 1533 2442 1430 2354 
+Q 1328 2266 1270 2192 
+Q 1264 2106 1256 2002 
+Q 1248 1898 1248 1731 
+Q 1248 1478 1277 1259 
+Q 1306 1040 1363 862 
+Q 1421 685 1513 557 
+Q 1606 429 1734 358 
+Q 1862 288 2029 288 
+Q 2278 288 2436 424 
+Q 2595 560 2670 805 
+Q 2746 1050 2746 1373 
+Q 2746 1795 2664 2059 
+Q 2582 2323 2427 2444 
+Q 2272 2566 2061 2566 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#ShadeParadoxText-Bold-53"/>
+     <use xlink:href="#ShadeParadoxText-Bold-74" transform="translate(60.300003 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-6f" transform="translate(100.5 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-63" transform="translate(160.150009 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-68" transform="translate(211.250015 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-61" transform="translate(278.000031 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-73" transform="translate(333.90004 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-74" transform="translate(385.600052 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-69" transform="translate(425.800049 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-63" transform="translate(460.000046 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-2d" transform="translate(511.100052 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-72" transform="translate(568.700058 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-75" transform="translate(615.150055 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-6c" transform="translate(679.300064 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-65" transform="translate(711.800064 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-20" transform="translate(765.90007 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-73" transform="translate(789.600067 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-65" transform="translate(841.300079 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-6e" transform="translate(895.400085 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-73" transform="translate(963.250092 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-69" transform="translate(1014.950104 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-74" transform="translate(1049.150101 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-69" transform="translate(1089.350098 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-76" transform="translate(1123.550095 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-69" transform="translate(1182.100098 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-74" transform="translate(1216.300095 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-79" transform="translate(1256.500092 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-20" transform="translate(1315.800095 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-61" transform="translate(1339.500092 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-74" transform="translate(1395.400101 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-20" transform="translate(1435.600098 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-66" transform="translate(1459.300095 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-69" transform="translate(1499.400101 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-78" transform="translate(1533.600098 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-65" transform="translate(1595.350113 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-64" transform="translate(1649.450119 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-20" transform="translate(1711.200134 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-73" transform="translate(1734.900131 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-6c" transform="translate(1786.600143 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-6f" transform="translate(1819.100143 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-70" transform="translate(1878.750153 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-65" transform="translate(1942.400162 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-20" transform="translate(1996.500168 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-31" transform="translate(2020.200165 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-2e" transform="translate(2066.550171 0)"/>
+     <use xlink:href="#ShadeParadoxText-Bold-36" transform="translate(2094.150177 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7857944755">
+   <rect x="58.032" y="31.752" width="370.512" height="149.688"/>
+  </clipPath>
+ </defs>
+</svg>

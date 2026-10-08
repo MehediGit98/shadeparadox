@@ -1,0 +1,1030 @@
+{
+  "experiment": "E2",
+  "controller": "circadian_aware",
+  "orientation_deg": 270,
+  "depth_m": 6.5,
+  "shade": "roller_dark",
+  "budget": 16,
+  "window_width_frac": 0.55,
+  "window_head_m": 2.4,
+  "days": [
+    "pre_monsoon",
+    "monsoon"
+  ],
+  "encodings": [
+    "glare_only",
+    "energy_only",
+    "glare_energy",
+    "circadian_only",
+    "coupled_linear",
+    "coupled_constraint"
+  ],
+  "optimisers": [
+    "random_search",
+    "latin_hypercube",
+    "coordinate_descent",
+    "annealing"
+  ],
+  "cells": [
+    {
+      "encoding": "glare_only",
+      "optimiser": "random_search",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_only",
+      "optimiser": "latin_hypercube",
+      "params": {
+        "dgp_close": 0.32688125204852264,
+        "solar_close_w_m2": 182.4571219177611,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7875190565658565,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_only",
+      "optimiser": "coordinate_descent",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_only",
+      "optimiser": "annealing",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "energy_only",
+      "optimiser": "random_search",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.9873845024263529,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "energy_only",
+      "optimiser": "latin_hypercube",
+      "params": {
+        "dgp_close": 0.32688125204852264,
+        "solar_close_w_m2": 182.4571219177611,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7875190565658565,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.9873845024263529,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "energy_only",
+      "optimiser": "coordinate_descent",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.9873845024263529,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "energy_only",
+      "optimiser": "annealing",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.9873845024263529,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_energy",
+      "optimiser": "random_search",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.49369225121317645,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_energy",
+      "optimiser": "latin_hypercube",
+      "params": {
+        "dgp_close": 0.32688125204852264,
+        "solar_close_w_m2": 182.4571219177611,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7875190565658565,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.49369225121317645,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_energy",
+      "optimiser": "coordinate_descent",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.49369225121317645,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "glare_energy",
+      "optimiser": "annealing",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": -0.49369225121317645,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "circadian_only",
+      "optimiser": "random_search",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 1.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "circadian_only",
+      "optimiser": "latin_hypercube",
+      "params": {
+        "dgp_close": 0.32688125204852264,
+        "solar_close_w_m2": 182.4571219177611,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7875190565658565,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 1.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "circadian_only",
+      "optimiser": "coordinate_descent",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 1.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "circadian_only",
+      "optimiser": "annealing",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 1.0,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_linear",
+      "optimiser": "random_search",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.004163114199303541,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_linear",
+      "optimiser": "latin_hypercube",
+      "params": {
+        "dgp_close": 0.32688125204852264,
+        "solar_close_w_m2": 182.4571219177611,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7875190565658565,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.004163114199303541,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_linear",
+      "optimiser": "coordinate_descent",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.004163114199303541,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_linear",
+      "optimiser": "annealing",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.004163114199303541,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_constraint",
+      "optimiser": "random_search",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.9506307748786823,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_constraint",
+      "optimiser": "latin_hypercube",
+      "params": {
+        "dgp_close": 0.32688125204852264,
+        "solar_close_w_m2": 182.4571219177611,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7875190565658565,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.9506307748786823,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_constraint",
+      "optimiser": "coordinate_descent",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.9506307748786823,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    },
+    {
+      "encoding": "coupled_constraint",
+      "optimiser": "annealing",
+      "params": {
+        "dgp_close": 0.31928553041537994,
+        "solar_close_w_m2": 124.89167936601724,
+        "reopen_prob": 0.22,
+        "medi_target": 250.0,
+        "workplane_target": 500.0,
+        "max_coverage": 0.7011237682175181,
+        "stochastic_intercept": -8.0,
+        "stochastic_slope": 1.6
+      },
+      "score": 0.9506307748786823,
+      "aggregates": {
+        "occupied_hours": 7.5,
+        "medi_mean": 657.0785414722322,
+        "medi_dose_lxh": 4928.089061041742,
+        "frac_medi_above_250": 1.0,
+        "frac_medi_above_136": 1.0,
+        "dgp_mean": 0.21762438842710094,
+        "frac_dgp_above_035": 0.0,
+        "frac_dgp_above_040": 0.0,
+        "mean_coverage": 0.0,
+        "electric_kwh": 7.899076019410823,
+        "mean_workplane_lux": 889.6024880870988,
+        "mean_der": 0.8078815959058083,
+        "glare_source_steps": 13.714285714285714,
+        "annual_medi_dose_lxh": 1034898.7028187658,
+        "annual_electric_kwh": 1658.8059640762729
+      },
+      "outcome": [
+        0.0,
+        1.0,
+        0.7899076019410823
+      ],
+      "evaluations": 16
+    }
+  ],
+  "dispersion_from_algorithm": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 36
+  },
+  "dispersion_from_encoding": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 60
+  },
+  "encoding_over_algorithm_ratio": {
+    "mean": null,
+    "lo": null,
+    "hi": null,
+    "is_lower_bound": false,
+    "numerical_floor": null,
+    "algorithm_dispersion_is_zero": true,
+    "status": "unidentifiable"
+  },
+  "distinct_outcomes_per_encoding": {
+    "glare_only": 1,
+    "energy_only": 1,
+    "glare_energy": 1,
+    "circadian_only": 1,
+    "coupled_linear": 1,
+    "coupled_constraint": 1
+  },
+  "distinct_outcomes_per_optimiser": {
+    "random_search": 1,
+    "latin_hypercube": 1,
+    "coordinate_descent": 1,
+    "annealing": 1
+  },
+  "parameter_sensitivity": {
+    "active_parameters": [],
+    "inert_parameters": [
+      "dgp_close",
+      "solar_close_w_m2",
+      "max_coverage"
+    ],
+    "outcome_shift_at_extremes": {
+      "dgp_close": 0.0,
+      "solar_close_w_m2": 0.0,
+      "max_coverage": 0.0
+    },
+    "tolerance": 1e-06
+  },
+  "degenerate_outcome_dims": {
+    "frac_dgp_above_035": true,
+    "frac_medi_above_250": true,
+    "electric_kwh": true
+  },
+  "evaluation_budget_per_cell": 16,
+  "evaluations_per_cell": {
+    "glare_only/random_search": 16,
+    "glare_only/latin_hypercube": 16,
+    "glare_only/coordinate_descent": 16,
+    "glare_only/annealing": 16,
+    "energy_only/random_search": 16,
+    "energy_only/latin_hypercube": 16,
+    "energy_only/coordinate_descent": 16,
+    "energy_only/annealing": 16,
+    "glare_energy/random_search": 16,
+    "glare_energy/latin_hypercube": 16,
+    "glare_energy/coordinate_descent": 16,
+    "glare_energy/annealing": 16,
+    "circadian_only/random_search": 16,
+    "circadian_only/latin_hypercube": 16,
+    "circadian_only/coordinate_descent": 16,
+    "circadian_only/annealing": 16,
+    "coupled_linear/random_search": 16,
+    "coupled_linear/latin_hypercube": 16,
+    "coupled_linear/coordinate_descent": 16,
+    "coupled_linear/annealing": 16,
+    "coupled_constraint/random_search": 16,
+    "coupled_constraint/latin_hypercube": 16,
+    "coupled_constraint/coordinate_descent": 16,
+    "coupled_constraint/annealing": 16
+  },
+  "unique_evaluations": 61,
+  "outcome_dims": [
+    "frac_dgp_above_035",
+    "frac_medi_above_250",
+    "electric_kwh"
+  ],
+  "wall_clock_s": 49.71
+}

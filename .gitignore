@@ -1,0 +1,48 @@
+# Python and local execution
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+reproduced/
+build/
+dist/
+*.egg-info/
+
+# Private authoring material and correspondence (case-insensitive names)
+[pP][rR][iI][vV][aA][tT][eE]/
+_private/
+authoring/
+papers/
+*[mM][aA][nN][uU][sS][cC][rR][iI][pP][tT]*
+[sS][uU][bB][mM][iI][sS][sS][iI][oO][nN]*
+[rR][eE][vV][iI][eE][wW]*
+[rR][eE][sS][pP][oO][nN][sS][eE]*
+[cC][oO][vV][eE][rR]_[lL][eE][tT][tT][eE][rR]*
+[cC][hH][aA][nN][gG][eE][lL][oO][gG]*
+[cC][hH][aA][nN][gG][eE][sS][lL][oO]*
+[oO][bB][jJ][eE][cC][tT][iI][vV][eE]_[eE][nN][cC][oO][dD][iI][nN][gG]*
+[oO][bB][jJ][eE][cC][rR][tT][iI][vV][eE]_[eE][nN][cC][oO][dD][iI][nN][gG]*
+*.doc
+*.docx
+*.odt
+*.tex
+*.bib
+/*.pdf
+
+# Local secrets, packages, logs and editor files
+.env
+.env.*
+.git/
+*.zip
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+
+# Archived results/, figures/, verification/, reference CSVs and fonts are public.
+# New calculations are written under reproduced/ and do not overwrite baselines.

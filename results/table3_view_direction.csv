@@ -1,0 +1,5 @@
+rule,controller_key,medi_min_lx,medi_max_lx,ratio,coverage_range_pp,seed_ratio_lo,seed_ratio_hi
+Always open,always_open,878.7,4077.0,4.64,0.0,4.64,4.64
+Glare or solar,thermal_and_glare,878.7,1699.3,1.93,21.88,1.9,1.96
+Illustrative stochastic,illustrative_stochastic,755.2,1565.0,2.07,25.52,1.29,3.65
+Melanopic-aware,circadian_aware,881.5,1887.2,2.14,16.05,2.14,2.14

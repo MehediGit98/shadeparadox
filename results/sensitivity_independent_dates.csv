@@ -1,0 +1,5 @@
+controller_key,medi_retained_pct,delta_glare_time_pp,delta_250lx_time_pp
+glare_only,92.3,-7.32,0.0
+thermal_only,99.2,-0.41,0.0
+illustrative_stochastic,92.2,-3.71,-0.66
+circadian_aware,94.1,-6.5,0.0

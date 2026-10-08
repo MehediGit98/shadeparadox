@@ -1,0 +1,219 @@
+{
+  "study": "shadeparadox",
+  "check": "E2 in four further orientation-depth cells, two window sizes",
+  "package_version": "0.3.2",
+  "cells": [
+    {
+      "window": "reduced",
+      "window_width_frac": 0.55,
+      "window_head_m": 2.4,
+      "orientation_deg": 0,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.0011168677523072008,
+      "encoding_dispersion": 0.010607614415257254,
+      "ratio": {
+        "mean": 9.497645888104726,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    },
+    {
+      "window": "reduced",
+      "window_width_frac": 0.55,
+      "window_head_m": 2.4,
+      "orientation_deg": 90,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.005639318192020657,
+      "encoding_dispersion": 0.009822790099754937,
+      "ratio": {
+        "mean": 1.7418400177620188,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    },
+    {
+      "window": "reduced",
+      "window_width_frac": 0.55,
+      "window_head_m": 2.4,
+      "orientation_deg": 180,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.0,
+      "encoding_dispersion": 0.0,
+      "ratio": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": true,
+        "status": "unidentifiable"
+      },
+      "active_parameters": [],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": true
+      }
+    },
+    {
+      "window": "reduced",
+      "window_width_frac": 0.55,
+      "window_head_m": 2.4,
+      "orientation_deg": 270,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.004810294493018101,
+      "encoding_dispersion": 0.006027374612542147,
+      "ratio": {
+        "mean": 1.2530157189524624,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    },
+    {
+      "window": "full",
+      "window_width_frac": 0.85,
+      "window_head_m": 2.7,
+      "orientation_deg": 0,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.02539409953920032,
+      "encoding_dispersion": 0.029836091514622305,
+      "ratio": {
+        "mean": 1.1749222085455315,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    },
+    {
+      "window": "full",
+      "window_width_frac": 0.85,
+      "window_head_m": 2.7,
+      "orientation_deg": 90,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.020754521202594276,
+      "encoding_dispersion": 0.023242249518310682,
+      "ratio": {
+        "mean": 1.1198644040704464,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    },
+    {
+      "window": "full",
+      "window_width_frac": 0.85,
+      "window_head_m": 2.7,
+      "orientation_deg": 180,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.014866424832114304,
+      "encoding_dispersion": 0.018940641461539908,
+      "ratio": {
+        "mean": 1.2740549039486966,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    },
+    {
+      "window": "full",
+      "window_width_frac": 0.85,
+      "window_head_m": 2.7,
+      "orientation_deg": 270,
+      "depth_m": 2.5,
+      "algorithm_dispersion": 0.01928111023797418,
+      "encoding_dispersion": 0.02214430479121225,
+      "ratio": {
+        "mean": 1.148497390342129,
+        "lo": null,
+        "hi": null,
+        "is_lower_bound": false,
+        "numerical_floor": null,
+        "algorithm_dispersion_is_zero": false,
+        "status": "descriptive"
+      },
+      "active_parameters": [
+        "dgp_close"
+      ],
+      "degenerate_outcome_dims": {
+        "frac_dgp_above_035": true,
+        "frac_medi_above_250": true,
+        "electric_kwh": false
+      }
+    }
+  ],
+  "n_cells": 8,
+  "n_cells_with_zero_dispersion": 1,
+  "zero_dispersion_windows": [
+    "reduced"
+  ],
+  "interpretation": "Exploratory (one optimiser seed). Whether the contrast is flat depends on the window: compare the 'reduced' and 'full' rows. No comparative encoding-versus-optimiser claim is made."
+}

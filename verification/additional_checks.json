@@ -1,0 +1,102 @@
+{
+  "release": "0.3.2",
+  "assumed_4000K_source_melanopic_DER": 0.7118169460650791,
+  "fabric_photopic_D65": 0.32583333316987095,
+  "fabric_melanopic_D65": 0.1789800429743243,
+  "fabric_photopic_after_clear_glazing_D65": 0.32579843865160696,
+  "closed_photopic_transmission_relative_to_clear": 0.04932185947864463,
+  "closed_photopic_formula": "0.02 + 0.09 * fabric_photopic_after_clear_glazing_D65",
+  "fixed_proxy_kWh_per_occupied_day": 4.032,
+  "e3_window_and_back_wall": {
+    "always_open": {
+      "90.0": {
+        "medi_mean": 891.4700872018715,
+        "mean_coverage": 0.0
+      },
+      "270.0": {
+        "medi_mean": 4076.985200503614,
+        "mean_coverage": 0.0
+      }
+    },
+    "thermal_and_glare": {
+      "90.0": {
+        "medi_mean": 891.4700872018715,
+        "mean_coverage": 0.0
+      },
+      "270.0": {
+        "medi_mean": 1699.3012098112977,
+        "mean_coverage": 0.21876712328767126
+      }
+    },
+    "illustrative_stochastic": {
+      "90.0": {
+        "medi_mean": 766.1217763618024,
+        "mean_coverage": 0.14260273972602738
+      },
+      "270.0": {
+        "medi_mean": 1565.0364567364436,
+        "mean_coverage": 0.39776255707762564
+      }
+    },
+    "circadian_aware": {
+      "90.0": {
+        "medi_mean": 894.3031952739693,
+        "mean_coverage": 0.021232876712328767
+      },
+      "270.0": {
+        "medi_mean": 1872.9788926700462,
+        "mean_coverage": 0.17168949771689498
+      }
+    }
+  },
+  "e2_selected_solution_check": {
+    "encoding": "glare_only",
+    "optimiser": "random_search",
+    "params": {
+      "dgp_close": 0.31928553041537994,
+      "solar_close_w_m2": 124.89167936601724,
+      "reopen_prob": 0.22,
+      "medi_target": 250.0,
+      "workplane_target": 500.0,
+      "max_coverage": 0.7011237682175181,
+      "stochastic_intercept": -8.0,
+      "stochastic_slope": 1.6
+    },
+    "runs": [
+      {
+        "seed": 7,
+        "occupied_steps": 30,
+        "steps_with_electric_light": 6,
+        "electric_fraction_min": 0.0,
+        "electric_fraction_max": 0.25039843167188575,
+        "coverage_min": 0.0,
+        "coverage_max": 0.0,
+        "medi_mean": 657.0785414722322,
+        "total_energy_proxy_kWh": 7.899076019410823
+      },
+      {
+        "seed": 8,
+        "occupied_steps": 30,
+        "steps_with_electric_light": 6,
+        "electric_fraction_min": 0.0,
+        "electric_fraction_max": 0.25039843167188575,
+        "coverage_min": 0.0,
+        "coverage_max": 0.0,
+        "medi_mean": 657.0785414722322,
+        "total_energy_proxy_kWh": 7.899076019410823
+      },
+      {
+        "seed": 9,
+        "occupied_steps": 30,
+        "steps_with_electric_light": 6,
+        "electric_fraction_min": 0.0,
+        "electric_fraction_max": 0.25039843167188575,
+        "coverage_min": 0.0,
+        "coverage_max": 0.0,
+        "medi_mean": 657.0785414722322,
+        "total_energy_proxy_kWh": 7.899076019410823
+      }
+    ],
+    "scope": "One of the 24 archived selected parameter sets, tested over all three E2 behavioural seeds."
+  }
+}

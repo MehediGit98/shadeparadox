@@ -1,0 +1,115 @@
+{
+  "model_release": "0.3.2",
+  "package": "Standalone public source and results",
+  "checked_at_utc": "2026-10-08T16:08:11.073Z",
+  "status": "pass",
+  "scope": {
+    "full_simulation_rerun_during_public_packaging": true,
+    "reason": "A full simulation rerun was completed before release cleanup; the reproduced outputs matched the archived results within the stated tolerances. The check also regenerated CSV tables and figures from archived JSON, reran additional model checks and regressions, and verified packaging rules. The transient reproduced/ directory is excluded from the release because it duplicates the public baselines in results/.",
+    "pipeline_byte_unchanged": true,
+    "scientific_python_modules_compared": 26,
+    "scientific_executable_AST_unchanged": true,
+    "archived_results_figures_reference_files_byte_unchanged": 33
+  },
+  "regression_tests": {
+    "total": 19,
+    "passed": 15,
+    "skipped": 4,
+    "failed": 0,
+    "skip_reason": "Separate SpecDebt package not bundled"
+  },
+  "table_regeneration": {
+    "tables_matched": [
+      "table2_blind_operation.csv",
+      "table3_view_direction.csv",
+      "e1_cell_retention.csv",
+      "e1_per_seed.csv",
+      "e2_cells.csv",
+      "e3_headings.csv",
+      "sensitivity_intercept_sweep.csv",
+      "sensitivity_independent_dates.csv",
+      "sensitivity_heading_convergence.csv"
+    ],
+    "numeric_fields_matched": 11206,
+    "relative_tolerance": 1e-09,
+    "absolute_tolerance": 1e-08,
+    "status": "pass"
+  },
+  "figure_regeneration": {
+    "png_checks": [
+      {
+        "figure": "figure_1_office_geometry",
+        "pixels_match": true,
+        "dimensions": [
+          3720,
+          2280
+        ],
+        "rgba_sha256": "6a928005b48f2b6107f37e426c246e48732b77bc064d6fb9aa536435031a8dda"
+      },
+      {
+        "figure": "figure_2_blind_tradeoffs",
+        "pixels_match": true,
+        "dimensions": [
+          3720,
+          2940
+        ],
+        "rgba_sha256": "8b0f7b0cfc380c1d5dc9b4127343c62d55d754e049f5ed452c3082d40dca0ac4"
+      },
+      {
+        "figure": "figure_3_view_direction",
+        "pixels_match": true,
+        "dimensions": [
+          3720,
+          2010
+        ],
+        "rgba_sha256": "5b7a7b0788f22d1f7dfef11b280e305fb6e1ad67690d93763dbf282e154a0807"
+      },
+      {
+        "figure": "figure_4_unidentifiable_comparison",
+        "pixels_match": true,
+        "dimensions": [
+          3720,
+          1920
+        ],
+        "rgba_sha256": "35265297e6ff1b0955c1dd1b5b5f056c72f1c868e1ae9842d3827cfe1a40930f"
+      },
+      {
+        "figure": "figure_s1_stochastic_sensitivity",
+        "pixels_match": true,
+        "dimensions": [
+          3720,
+          1890
+        ],
+        "rgba_sha256": "5d6e9e148c5d72e18d47ef8158f7c70b9c9a35c1449f8947a8b4d5ede2843d4f"
+      },
+      {
+        "figure": "ShadeParadox_graphical_abstract",
+        "pixels_match": true,
+        "dimensions": [
+          3000,
+          1500
+        ],
+        "rgba_sha256": "59d491b733400dc60bf05c39cad2a116a92fd0925176ba3786fc1072a293646f"
+      }
+    ],
+    "all_pixels_match": true
+  },
+  "additional_model_checks": {
+    "numeric_fields_matched": 57,
+    "status": "pass"
+  },
+  "package_checks": {
+    "git_and_manifest_private_paths_tested": 18,
+    "all_public_paths_allowed_by_git": true,
+    "altered_csv_value_rejected": true,
+    "archived_output_overwrite_rejected": true
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "fonttools": "4.61.1",
+    "pillow": "12.3.0",
+    "platform": "Linux"
+  }
+}

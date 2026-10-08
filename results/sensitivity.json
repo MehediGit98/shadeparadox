@@ -1,0 +1,1421 @@
+{
+  "experiment": "S",
+  "quick": false,
+  "stochastic_intercept_sweep": {
+    "analysis": "stochastic_intercept_sweep",
+    "controller": "illustrative_stochastic",
+    "default_intercept": -8.0,
+    "default_slope": 1.6,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_cells": 12,
+    "rows": [
+      {
+        "intercept": -10.0,
+        "slope": 1.6,
+        "medi_retained": 0.9797148886852021,
+        "medi_retained_by_seed": [
+          0.9514094422520368,
+          1.0,
+          1.0,
+          0.9471650011739744,
+          1.0
+        ]
+      },
+      {
+        "intercept": -9.5,
+        "slope": 1.6,
+        "medi_retained": 0.9592537462528471,
+        "medi_retained_by_seed": [
+          0.8491037300902611,
+          1.0,
+          1.0,
+          0.9471650011739744,
+          1.0
+        ]
+      },
+      {
+        "intercept": -9.0,
+        "slope": 1.6,
+        "medi_retained": 0.9111140265873825,
+        "medi_retained_by_seed": [
+          0.6823443446829213,
+          0.9335707916847551,
+          0.9954578788237153,
+          0.9471650011739744,
+          0.9970321165715462
+        ]
+      },
+      {
+        "intercept": -8.5,
+        "slope": 1.6,
+        "medi_retained": 0.8358136070317486,
+        "medi_retained_by_seed": [
+          0.48496389347575586,
+          0.8179681833425465,
+          0.9462181637182487,
+          0.9452237491290961,
+          0.9846940454930952
+        ]
+      },
+      {
+        "intercept": -8.0,
+        "slope": 1.6,
+        "medi_retained": 0.7331088821168936,
+        "medi_retained_by_seed": [
+          0.37662464711455906,
+          0.7182019260784459,
+          0.8109113176709327,
+          0.8487472379453626,
+          0.9110592817751678
+        ]
+      },
+      {
+        "intercept": -7.0,
+        "slope": 1.6,
+        "medi_retained": 0.5133106425388375,
+        "medi_retained_by_seed": [
+          0.28612891783716665,
+          0.6625214099891285,
+          0.512215160977303,
+          0.38852858045309785,
+          0.7171591434374917
+        ]
+      },
+      {
+        "intercept": -6.0,
+        "slope": 1.6,
+        "medi_retained": 0.3030720953293923,
+        "medi_retained_by_seed": [
+          0.24695796458427344,
+          0.3834907477182871,
+          0.24132380944360635,
+          0.2352848898119804,
+          0.4083030650888139
+        ]
+      }
+    ]
+  },
+  "independent_dates": {
+    "analysis": "independent_dates",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_cells": 12,
+    "seed_rule": "controller seed = 100 * behavioural seed + date index",
+    "controllers": {
+      "glare_only": {
+        "medi_retained": 0.922794841655081,
+        "dgp_delta_pp": -7.322678843226788,
+        "compliance_delta_pp": 0.0,
+        "medi_retained_by_seed": [
+          0.9235060860647072,
+          0.9211553507638938,
+          0.9211553507638938,
+          0.9235060860647072,
+          0.9246513346182031
+        ]
+      },
+      "thermal_only": {
+        "medi_retained": 0.992487960132164,
+        "dgp_delta_pp": -0.41095890410958874,
+        "compliance_delta_pp": 0.0,
+        "medi_retained_by_seed": [
+          0.992487960132164,
+          0.992487960132164,
+          0.992487960132164,
+          0.992487960132164,
+          0.992487960132164
+        ]
+      },
+      "illustrative_stochastic": {
+        "medi_retained": 0.9215510664689057,
+        "dgp_delta_pp": -3.7062404870624044,
+        "compliance_delta_pp": -0.6575342465753428,
+        "medi_retained_by_seed": [
+          0.8476170559724738,
+          0.9536356422109044,
+          0.9408783445784397,
+          0.9917229223071725,
+          0.8739013672755386
+        ]
+      },
+      "circadian_aware": {
+        "medi_retained": 0.9409037949649127,
+        "dgp_delta_pp": -6.499238964992389,
+        "compliance_delta_pp": 0.0,
+        "medi_retained_by_seed": [
+          0.9409037949649127,
+          0.9409037949649127,
+          0.9409037949649127,
+          0.9409037949649127,
+          0.9409037949649127
+        ]
+      }
+    }
+  },
+  "heading_convergence": {
+    "analysis": "heading_convergence",
+    "seed": 0,
+    "orientation_deg": 270,
+    "depth_m": 2.5,
+    "n_headings": 12,
+    "results": {
+      "always_open": [
+        {
+          "n_directions": 128,
+          "medi_min": 844.6832577030127,
+          "medi_max": 3800.167667464554,
+          "medi_ratio": 4.498926233957247,
+          "coverage_range_pp": 0.0
+        },
+        {
+          "n_directions": 256,
+          "medi_min": 878.7018575673939,
+          "medi_max": 4076.985200503614,
+          "medi_ratio": 4.639782157500357,
+          "coverage_range_pp": 0.0
+        },
+        {
+          "n_directions": 512,
+          "medi_min": 837.9233407103834,
+          "medi_max": 3450.8173144916213,
+          "medi_ratio": 4.1182971601746425,
+          "coverage_range_pp": 0.0
+        },
+        {
+          "n_directions": 1024,
+          "medi_min": 882.7039821369036,
+          "medi_max": 3598.938607692809,
+          "medi_ratio": 4.077174999233921,
+          "coverage_range_pp": 0.0
+        },
+        {
+          "n_directions": 2048,
+          "medi_min": 871.189961671347,
+          "medi_max": 3634.448906054461,
+          "medi_ratio": 4.171821377603916,
+          "coverage_range_pp": 0.0
+        }
+      ],
+      "thermal_and_glare": [
+        {
+          "n_directions": 128,
+          "medi_min": 844.6832577030127,
+          "medi_max": 1783.1832679893037,
+          "medi_ratio": 2.111067375525352,
+          "coverage_range_pp": 20.89041095890411
+        },
+        {
+          "n_directions": 256,
+          "medi_min": 878.7018575673939,
+          "medi_max": 1719.8236430557395,
+          "medi_ratio": 1.9572322833331828,
+          "coverage_range_pp": 21.438356164383563
+        },
+        {
+          "n_directions": 512,
+          "medi_min": 837.9233407103834,
+          "medi_max": 1724.761098923667,
+          "medi_ratio": 2.0583757667633784,
+          "coverage_range_pp": 19.52054794520548
+        },
+        {
+          "n_directions": 1024,
+          "medi_min": 882.7039821369036,
+          "medi_max": 1740.3793921869242,
+          "medi_ratio": 1.9716455656784369,
+          "coverage_range_pp": 19.931506849315067
+        }
+      ],
+      "circadian_aware": [
+        {
+          "n_directions": 128,
+          "medi_min": 847.5620952695417,
+          "medi_max": 1963.1604660749406,
+          "medi_ratio": 2.3162438209918017,
+          "coverage_range_pp": 14.954337899543379
+        },
+        {
+          "n_directions": 256,
+          "medi_min": 881.5004007211451,
+          "medi_max": 1887.2112088825152,
+          "medi_ratio": 2.140907942116203,
+          "coverage_range_pp": 16.050228310502284
+        },
+        {
+          "n_directions": 512,
+          "medi_min": 840.7559506448276,
+          "medi_max": 1931.783257193656,
+          "medi_ratio": 2.2976742010711337,
+          "coverage_range_pp": 12.716894977168952
+        },
+        {
+          "n_directions": 1024,
+          "medi_min": 885.3950019003377,
+          "medi_max": 1928.8410259180584,
+          "medi_ratio": 2.1785090516415337,
+          "coverage_range_pp": 13.53881278538813
+        }
+      ],
+      "illustrative_stochastic": [
+        {
+          "n_directions": 128,
+          "medi_min": 477.35317065698086,
+          "medi_max": 664.4853205668516,
+          "medi_ratio": 1.3920203350745965,
+          "coverage_range_pp": 39.10958904109588
+        },
+        {
+          "n_directions": 256,
+          "medi_min": 510.88205298115327,
+          "medi_max": 658.2212517299091,
+          "medi_ratio": 1.2884015946322376,
+          "coverage_range_pp": 39.10958904109588
+        },
+        {
+          "n_directions": 512,
+          "medi_min": 511.70550837930926,
+          "medi_max": 712.1143210361715,
+          "medi_ratio": 1.3916487303246037,
+          "coverage_range_pp": 39.10958904109588
+        },
+        {
+          "n_directions": 1024,
+          "medi_min": 523.1239156874929,
+          "medi_max": 641.7128953401286,
+          "medi_ratio": 1.2266938598989217,
+          "coverage_range_pp": 39.10958904109588
+        }
+      ]
+    }
+  },
+  "melanopic_equivalence": {
+    "analysis": "melanopic_equivalence",
+    "comparison_rule": "minimum_admissible_coverage",
+    "runs_compared": 60,
+    "runs_differing": 0,
+    "max_abs_difference": 0.0,
+    "audit_seed": 0,
+    "occupied_steps_audited": 720,
+    "steps_with_medi_increasing_in_coverage": 0,
+    "worst_relative_rise": 0.0,
+    "steps_where_highest_medi_admissible_is_not_smallest": 0
+  },
+  "e2_full_window": {
+    "analysis": "e2_full_window",
+    "orientation_deg": 270,
+    "depth_m": 2.5,
+    "budget": 16,
+    "optimiser_seed": 11,
+    "exploratory": true,
+    "results": {
+      "april_july": {
+        "dispersion_from_algorithm": {
+          "mean": 0.01928111023797418,
+          "lo": 0.01288544912018546,
+          "hi": 0.02573550026545533,
+          "n": 36
+        },
+        "dispersion_from_encoding": {
+          "mean": 0.02214430479121225,
+          "lo": 0.016605687910878478,
+          "hi": 0.028212197635116436,
+          "n": 60
+        },
+        "encoding_over_algorithm_ratio": {
+          "mean": 1.148497390342129,
+          "lo": null,
+          "hi": null,
+          "is_lower_bound": false,
+          "numerical_floor": null,
+          "algorithm_dispersion_is_zero": false,
+          "status": "descriptive"
+        },
+        "distinct_outcomes_per_encoding": {
+          "glare_only": 2,
+          "energy_only": 3,
+          "glare_energy": 3,
+          "circadian_only": 2,
+          "coupled_linear": 3,
+          "coupled_constraint": 3
+        },
+        "distinct_outcomes_per_optimiser": {
+          "random_search": 2,
+          "latin_hypercube": 2,
+          "coordinate_descent": 2,
+          "annealing": 3
+        },
+        "parameter_sensitivity": {
+          "active_parameters": [
+            "dgp_close"
+          ],
+          "inert_parameters": [
+            "solar_close_w_m2",
+            "max_coverage"
+          ],
+          "outcome_shift_at_extremes": {
+            "dgp_close": 0.2518069658399451,
+            "solar_close_w_m2": 0.0,
+            "max_coverage": 0.0
+          },
+          "tolerance": 1e-06
+        },
+        "degenerate_outcome_dims": {
+          "frac_dgp_above_035": true,
+          "frac_medi_above_250": true,
+          "electric_kwh": false
+        },
+        "unique_evaluations": 100,
+        "days": [
+          "pre_monsoon",
+          "monsoon"
+        ],
+        "window_width_frac": 0.85,
+        "window_head_m": 2.7,
+        "cells": [
+          {
+            "encoding": "glare_only",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8939083240460702
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_only",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              1.0,
+              0.9041379021528728
+            ],
+            "params": {
+              "dgp_close": 0.32688125204852264,
+              "solar_close_w_m2": 182.4571219177611,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7875190565658565,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_only",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8939083240460702
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_only",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8939083240460702
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8490724622845789
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8910291819928414
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8398394720397857
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8398394720397857
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 50.0,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7875188432481257,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8490724622845789
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8910291819928414
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8398394720397857
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8490724622845789
+            ],
+            "params": {
+              "dgp_close": 0.30289882443403504,
+              "solar_close_w_m2": 50.0,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.8656811454490156,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8939083240460702
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              1.0,
+              0.9041379021528728
+            ],
+            "params": {
+              "dgp_close": 0.32688125204852264,
+              "solar_close_w_m2": 182.4571219177611,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7875190565658565,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8939083240460702
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8939083240460702
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8490724622845789
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8910291819928414
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8398394720397857
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8490724622845789
+            ],
+            "params": {
+              "dgp_close": 0.30289882443403504,
+              "solar_close_w_m2": 50.0,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.8656811454490156,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8490724622845789
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8910291819928414
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8398394720397857
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              1.0,
+              0.8398394720397857
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 73.47459472876692,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 1.0,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          }
+        ]
+      },
+      "all_four": {
+        "dispersion_from_algorithm": {
+          "mean": 0.016473290179367012,
+          "lo": 0.01131148345559992,
+          "hi": 0.021625642888529743,
+          "n": 36
+        },
+        "dispersion_from_encoding": {
+          "mean": 0.020824700652050887,
+          "lo": 0.015693679750936225,
+          "hi": 0.02641427263578533,
+          "n": 60
+        },
+        "encoding_over_algorithm_ratio": {
+          "mean": 1.2641494458790064,
+          "lo": null,
+          "hi": null,
+          "is_lower_bound": false,
+          "numerical_floor": null,
+          "algorithm_dispersion_is_zero": false,
+          "status": "descriptive"
+        },
+        "distinct_outcomes_per_encoding": {
+          "glare_only": 2,
+          "energy_only": 3,
+          "glare_energy": 4,
+          "circadian_only": 2,
+          "coupled_linear": 4,
+          "coupled_constraint": 3
+        },
+        "distinct_outcomes_per_optimiser": {
+          "random_search": 2,
+          "latin_hypercube": 2,
+          "coordinate_descent": 2,
+          "annealing": 3
+        },
+        "parameter_sensitivity": {
+          "active_parameters": [
+            "dgp_close"
+          ],
+          "inert_parameters": [
+            "solar_close_w_m2",
+            "max_coverage"
+          ],
+          "outcome_shift_at_extremes": {
+            "dgp_close": 0.20823960954996285,
+            "solar_close_w_m2": 0.0,
+            "max_coverage": 0.0
+          },
+          "tolerance": 1e-06
+        },
+        "degenerate_outcome_dims": {
+          "frac_dgp_above_035": true,
+          "frac_medi_above_250": true,
+          "electric_kwh": false
+        },
+        "unique_evaluations": 100,
+        "days": [
+          "dry_winter",
+          "pre_monsoon",
+          "monsoon",
+          "post_monsoon"
+        ],
+        "window_width_frac": 0.85,
+        "window_head_m": 2.7,
+        "cells": [
+          {
+            "encoding": "glare_only",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8801350398649357
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_only",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8860205505565206
+            ],
+            "params": {
+              "dgp_close": 0.32688125204852264,
+              "solar_close_w_m2": 182.4571219177611,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7875190565658565,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_only",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8801350398649357
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_only",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8801350398649357
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8416924144137962
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8720488072980614
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8282495967745442
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "energy_only",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8282495967745442
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 50.0,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7875188432481257,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8416924144137962
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8720488072980614
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8282495967745442
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "glare_energy",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8390678040402999
+            ],
+            "params": {
+              "dgp_close": 0.30289882443403504,
+              "solar_close_w_m2": 50.0,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.8656811454490156,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8801350398649357
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8860205505565206
+            ],
+            "params": {
+              "dgp_close": 0.32688125204852264,
+              "solar_close_w_m2": 182.4571219177611,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7875190565658565,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8801350398649357
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "circadian_only",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8801350398649357
+            ],
+            "params": {
+              "dgp_close": 0.31928553041537994,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.7011237682175181,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8416924144137962
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8720488072980614
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8282495967745442
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_linear",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8390678040402999
+            ],
+            "params": {
+              "dgp_close": 0.30289882443403504,
+              "solar_close_w_m2": 50.0,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.8656811454490156,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "random_search",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8416924144137962
+            ],
+            "params": {
+              "dgp_close": 0.30430335125579167,
+              "solar_close_w_m2": 72.1889126866184,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.9461582672202771,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "latin_hypercube",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8720488072980614
+            ],
+            "params": {
+              "dgp_close": 0.3096850751941634,
+              "solar_close_w_m2": 70.63220894526143,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.5005819315822956,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "coordinate_descent",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8282495967745442
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 124.89167936601724,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 0.963623768217518,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          },
+          {
+            "encoding": "coupled_constraint",
+            "optimiser": "annealing",
+            "outcome": [
+              0.0,
+              0.9716894977168952,
+              0.8282495967745442
+            ],
+            "params": {
+              "dgp_close": 0.3,
+              "solar_close_w_m2": 73.47459472876692,
+              "reopen_prob": 0.22,
+              "medi_target": 250.0,
+              "workplane_target": 500.0,
+              "max_coverage": 1.0,
+              "stochastic_intercept": -8.0,
+              "stochastic_slope": 1.6
+            }
+          }
+        ]
+      }
+    }
+  },
+  "model_diagnostics": {
+    "analysis": "model_diagnostics",
+    "shade": "roller_dark",
+    "dgp_illuminance_term": {
+      "ev_threshold_lx": 3236.7972742759794,
+      "cells": [
+        {
+          "orientation_deg": 270,
+          "depth_m": 2.5,
+          "frac_time_dgp_ge_035": 0.4319634703196347,
+          "share_reached_by_illuminance_term": 0.9112050739957717
+        },
+        {
+          "orientation_deg": 0,
+          "depth_m": 2.5,
+          "frac_time_dgp_ge_035": 0.4465753424657534,
+          "share_reached_by_illuminance_term": 0.8650306748466258
+        },
+        {
+          "orientation_deg": 90,
+          "depth_m": 2.5,
+          "frac_time_dgp_ge_035": 0.34337899543378997,
+          "share_reached_by_illuminance_term": 0.9361702127659575
+        },
+        {
+          "orientation_deg": 0,
+          "depth_m": 4.5,
+          "frac_time_dgp_ge_035": 0.06575342465753424,
+          "share_reached_by_illuminance_term": 1.0
+        }
+      ]
+    },
+    "shade_transmittance": {
+      "fabric_photopic_d65": 0.32583333316987095,
+      "fabric_melanopic_d65": 0.1789800429743243,
+      "clear_glazing_photopic_d65": 0.8866118832771746,
+      "closed_shade_photopic_relative_to_clear": 0.04932185947864463
+    },
+    "fixed_load": {
+      "cooling_electric_kwh_per_occupied_day": 4.032,
+      "occupied_hours": 7.5,
+      "floor_area_m2": 48.0
+    },
+    "materials_550nm": {
+      "whitewash": 0.799625,
+      "grey_concrete": 0.31975,
+      "asphalt": 0.07003516624040922
+    },
+    "glazing_solar_to_visible": 1.28
+  },
+  "wall_clock_s": 402.97
+}
